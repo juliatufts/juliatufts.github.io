@@ -1,0 +1,12 @@
+# Site settings
+title: Julia Tufts
+email: juliatufts@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Julia Tufts personal site, mathematics, programming, piano, music, games, python, C#, Unity3d
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://juliatufts.com" # the base hostname & protocol for your site
+twitter_username: juliatufts
+github_username:  juliatufts
+
+# Build settings
+markdown: kramdown

@@ -1,10 +1,9 @@
-<!doctype html>
-<html lang="en">
-
+---
+---
 <head>
 	<meta charset="utf-8">
 	<title>Julia Tufts</title>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<link type="text/css" rel="stylesheet" href="/stylesheet.css">
 </head>
 
 <body>
@@ -23,11 +22,9 @@
 	</div>
 	
 	<div class="feed">
-		<h1>Curriculum vitae</h1>
-		<img src="Images/CV.png">
-		<a href="JuliaTuftsCV_2014.pdf"><h3>CLICK HERE TO VIEW PDF</h3>
-		</a>
+		<h1>{{ page.title }}</h1>
+		<p class="time">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		<p>{{ content }}</p>
+		<a href="/blog-archive.html"><h3>BACK TO BLOG ARCHIVE</h3></a>
 	</div>
 </body>
-	
-</html>
