@@ -114,6 +114,12 @@ h1 {
 	border: 2px solid black;
 }
 
+/*blog picture header*/
+.feed h4 {
+	font-family: Courier;
+	text-align: center;
+}
+
 .time {
 	color: #f012be; 
 	margin-top: -16px;

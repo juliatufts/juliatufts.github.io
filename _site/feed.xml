@@ -6,9 +6,66 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 22 Aug 2014 23:31:39 -0700</pubDate>
-    <lastBuildDate>Fri, 22 Aug 2014 23:31:39 -0700</lastBuildDate>
+    <pubDate>Sun, 24 Aug 2014 00:18:33 -0700</pubDate>
+    <lastBuildDate>Sun, 24 Aug 2014 00:18:33 -0700</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Getting the Math Feel</title>
+        <description>&lt;p&gt;There is delightful satisfaction in experiencing a good math feel. This satisfaction is not only found in solving problems and proving theorems, it also resides in the most basic building blocks of mathematics. It’s a bit hard to describe the feeling that I’m talking about here, but I’ll try to give an easy-to-understand example.&lt;/p&gt;
+
+&lt;p&gt;Imagine a person, let’s call them camper Cal, who needs a sleeping bag to survive a cold night in the woods. You’re given a special sleeping bag of mathematics that is adjustable in size, and you need to fit it for Cal. Now keep in mind that this person is a set size - you can’t squeeze them even a tiny bit to fit into a sleeping bag that’s smaller than them. Any sleeping bag bigger than Cal will hold them alright, but you don’t want to settle for just alright, you want to adjust the sleeping bag to have the perfect fit.&lt;/p&gt;
+
+&lt;div class=&quot;section group&quot;&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/PostImages/2014-08-23-sleeping-bag3.png&quot; id=&quot;outline&quot; /&gt;
+		&lt;h4&gt;too small&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/PostImages/2014-08-23-sleeping-bag4.png&quot; id=&quot;outline&quot; /&gt;
+		&lt;h4&gt;alright&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/PostImages/2014-08-23-sleeping-bag2.png&quot; id=&quot;outline&quot; /&gt;
+		&lt;h4&gt;even better&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So we require two things for our sleeping bag. We need our camper to fit inside it, i.e. it must be bigger than them. We also want our sleeping bag to be the closest fit of all the sleeping bags bigger than Cal. We could also state our sleeping bag criteria as follows:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;span&gt;it must be bigger than Cal&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;it must be smaller than all other sleeping bags that are bigger than Cal&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That second point may seem a bit convoluted at first, but it is equivalent to “being the closest fit”.&lt;/p&gt;
+
+&lt;div class=&quot;section group&quot;&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/PostImages/2014-08-23-sleeping-bag4.png&quot; id=&quot;outline&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/PostImages/2014-08-23-sleeping-bag2.png&quot; id=&quot;outline&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/PostImages/2014-08-23-sleeping-bag0.png&quot; id=&quot;outline&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For me there are a few nice math feels going on here. One is the dual nature of finding the smallest bag of a collection of bags that are bigger than another rigid object. Like infinitely many sleeping bags expanding around a camper and then falling away as a single one with the closest fit remains. Another is thinking about this perfectly snug sleeping bag itself. That of all the bigger-than-Cal sleeping bags, it can fit inside all of them. That if it was even a hair smaller, it wouldn’t have room for Cal to fit. Like a perfectly fit camper container that clicks into place.&lt;/p&gt;
+
+&lt;p&gt;What I’ve just described is an analogue to something called the &lt;strong&gt;supremum&lt;/strong&gt; of a set. For a subset A of the real numbers (your general purpose numbers that include integers, decimals and pi), the supremum of A is the real number α that satisfies&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;span&gt;&amp;alpha; is an upper bound for A, meaning that for all x in A, &amp;alpha; &amp;ge; x&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;for all upper bounds b for A, &amp;alpha; &amp;le; b&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;One of my main objectives in learning how to program is to have the ability to embed good math feels into the accessible medium of games and interactive computer entities. Math can be dynamic and engaging, and it’s totally worth experiencing that.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 Aug 2014 16:00:00 -0700</pubDate>
+        <link>http://juliatufts.com/2014/08/23/getting-the-math-feel.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/08/23/getting-the-math-feel.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Blogging In</title>
@@ -16,7 +73,7 @@
 
 &lt;p&gt;I will aim to not spend too much time obsessing over posts, making them eloquent, complete and well-ordered. My blog motto will be : periodic over perfection. I hope to gain a better understanding of my own thoughts by writing about them, and track the progres of my ideas. And I hope you like reading about what I have to say. Wish me luck!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/BlogImages/2014-08-22.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PostImages/2014-08-22.png&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Aug 2014 14:00:00 -0700</pubDate>
         <link>http://juliatufts.com/2014/08/22/blogging-in.html</link>
