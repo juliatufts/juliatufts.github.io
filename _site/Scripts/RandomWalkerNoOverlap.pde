@@ -4,8 +4,7 @@ int screenWidth = 400;
 int screenHeight = 400;
 int hue = 0;
 int[][] screenGrid = new int[screenWidth/boxSize + 1][screenHeight/boxSize + 1];
-int maxFrames = 2400;
-int frameCount = 0;
+int screenGridCounter = (screenWidth/boxSize + 1) * (screenHeight/boxSize + 1);
 
 void setup(){
   size(screenWidth, screenHeight);
@@ -22,13 +21,10 @@ void setup(){
 }
 
 void draw(){
-  if(frameCount < maxFrames){
+  if(screenGridCounter > 0){
     w.step();
     w.display(hue);
     hue = (hue + 1) % 255;
-    frameCount++;
-  } else {
-    noLoop();  
   }
 }
 
@@ -57,6 +53,7 @@ class Walker{
     
     //update screen grid
     screenGrid[currentGridIndex[0]][currentGridIndex[1]] = 1;
+    screenGridCounter--;
   }
   
   void tryStep(){
