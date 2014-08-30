@@ -9,27 +9,24 @@ int dotSize = 5;
 float sd_dist = 10;
 float sd_sat = 50;
 int splatCount;
-//Splat[] splatArray = new Splat[10];
+Splat[] splatArray = new Splat[10];
 
 void setup(){
   size(400,400);
   background(255);
   colorMode(HSB);
-
+  
   targetX = width/2;
   targetY = height/2;
-  //generator = new Random();
+  generator = new Random();
   
-  /*
   //initialize array
   for(int i = 0; i < splatArray.length; i++){       
       splatArray[i] = new Splat(targetX, targetY, meanSat);
   }
-  */
 }
 
 void draw(){
-  /*
   if(mousePressed){
     noStroke();
     for(Splat s: splatArray){
@@ -37,8 +34,7 @@ void draw(){
       s.display(hueArray[hueIndex]);  
     }
   }
-  */
-
+  
   fill(hueArray[hueIndex], meanSat, 255);
   stroke(0);
   rect(5, height - 15, 10, 10);
@@ -54,10 +50,10 @@ void keyPressed(){
     hueIndex = (hueIndex + 1) % hueArray.length;
   }
   if(keyCode == LEFT){
-    hueIndex = (hueIndex + hueArray.length - 1) % hueArray.length;
+    hueIndex = (hueIndex - 1) % hueArray.length;
   }
 }
-/*
+
 class Splat{
   float x;
   float y;
@@ -88,4 +84,3 @@ class Splat{
     ellipse(x, y, dotSize, dotSize);
   }
 }
-*/
