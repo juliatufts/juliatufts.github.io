@@ -26,20 +26,30 @@
 	<div class="feed">
 		<h1>Blog</h1>
 		
-			<h2>Processing Everyday</h2>
-				<p class="time">Aug 30, 2014</p>
-				<p><p>I am going to try to post something I make in Processing everyday for 100 days. Inspired by the Gaussian distribution, aka normal distribution, in two dimensions I read about in <a href="http://natureofcode.com/">The Nature of Code</a>, I made a spraypaint tool. Click on the canvas to paint away and use the arrow keys to change colors. Press space to clear the canvas.</p>
+			<h2>Going For a Random Walk in Processing</h2>
+				<p class="time">Aug 25, 2014</p>
+				<p><p>I started reading <a href="http://natureofcode.com/">The Nature of Code</a> by Daniel Shiffman recently; it’s a book about mathematical principles in the physical world and how to program natural systems using Processing. The very first example is to make a random walker class whose instantiation looks something like this:</p>
 
-<canvas data-processing-sources="/Scripts/GaussianPaintSplatter.pde"></canvas>
+<canvas data-processing-sources="/Scripts/RandomWalker0.pde"></canvas>
 
-<p>I will be tempted to explain everything I read about in The Nature of Code, but I will resist that temptation in the hopes that I won’t spend hours obsessing over how to explain things in the best way and getting my facts straighter than a line. I instead encourage the reader to check out the book itself (a great resource so far!), or consult wikipedia for a more complete and accurate explanation of what these mathematical entities are.</p>
+<p>The above random walker is represented by a single black pixel who randomly moves up, down, left or right with equal probability. I iterated on this example a few times: I first made the random walker into a 10x10 pixel square that changed color over time. In this version it’s easier to see the walker’s current movement and overall walk.</p>
+
+<canvas data-processing-sources="/Scripts/RandomWalker.pde"></canvas>
+
+<p>I next made it so that the walker could only walk on squares it hadn’t already visited. This way, the canvas will fill up entirely with colored squares and then stop.</p>
+
+<canvas data-processing-sources="/Scripts/RandomWalkerNoOverlap.pde"></canvas>
+
+<p>Looking at these beautifully moving walkers made me want to paint a river with them, so I did that.</p>
+
+<canvas data-processing-sources="/Scripts/RandomWalkerDefinedRegion.pde"></canvas>
+
+<p>Here I used multiple random walkers and made each a little less random by setting their probability of moving right to 0.5, moving up to 0.25, and moving down to 0.25. I hope you enjoy watching these as much as I do! I’ll continue to blog about my progress with <a href="http://natureofcode.com/">The Nature of Code</a>.</p>
 </p>
 		
 		<a href="/blog-archive.html"><h3>ALL BLOG POSTS</h3></a>
 		<!-- LIST OF ALL BLAG POSTS
 		<ul>
-			
-				<li>30 Aug 2014 &raquo; <a href = "/2014/08/30/processing-everyday.html">Processing Everyday</a> 							</li>
 			
 				<li>25 Aug 2014 &raquo; <a href = "/2014/08/25/going-for-a-random-walk-in-processing.html">Going For a Random Walk in Processing</a> 							</li>
 			
