@@ -6,9 +6,24 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Aug 2014 18:54:58 -0300</pubDate>
-    <lastBuildDate>Thu, 28 Aug 2014 18:54:58 -0300</lastBuildDate>
+    <pubDate>Sat, 30 Aug 2014 15:54:40 -0300</pubDate>
+    <lastBuildDate>Sat, 30 Aug 2014 15:54:40 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Processing Everyday</title>
+        <description>&lt;p&gt;I am going to try to post something I make in Processing everyday for 100 days. Inspired by the Gaussian distribution, aka normal distribution, in two dimensions I read about in &lt;a href=&quot;http://natureofcode.com/&quot;&gt;The Nature of Code&lt;/a&gt;, I made a spraypaint tool. Click on the canvas to paint away and use the arrow keys to change colors. Press space to clear the canvas.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/GaussianPaintSplatter.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;I will be tempted to explain everything I read about in The Nature of Code, but I will resist that temptation in the hopes that I won’t spend hours obsessing over how to explain things in the best way and getting my facts straighter than a line. I instead encourage the reader to check out the book itself (a great resource so far!), or consult wikipedia for a more complete and accurate explanation of what these mathematical entities are.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Aug 2014 13:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/08/30/processing-everyday.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/08/30/processing-everyday.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Going For a Random Walk in Processing</title>
