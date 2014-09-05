@@ -6,9 +6,26 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Aug 2014 16:39:30 -0300</pubDate>
-    <lastBuildDate>Sat, 30 Aug 2014 16:39:30 -0300</lastBuildDate>
+    <pubDate>Fri, 05 Sep 2014 17:50:23 -0300</pubDate>
+    <lastBuildDate>Fri, 05 Sep 2014 17:50:23 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Challenge Thyself</title>
+        <description>&lt;p&gt;So I thought that I would try to make a lot of things to feel like I accomplished something; that’s the plan at least.&lt;/p&gt;
+
+&lt;p&gt;My self-imposed challenge is to make and post a Processing sketch every day for 100 days. Right now I’m reading about vectors in the Nature of Code. I am already very comfortable with these magnitude and direction endowed math thingies from studying them in university, but it’s good to have practice implementing them in a newly learned programming environment.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/Bubbles.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Here are some bubbles that move using vecotrs. Clicking and holding on the sketch activates &lt;i&gt;slowmotion mode&lt;/i&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Sep 2014 14:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/05/challenge-thyself.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/05/challenge-thyself.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Going For a Random Walk in Processing</title>
