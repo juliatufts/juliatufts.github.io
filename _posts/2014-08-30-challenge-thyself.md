@@ -10,4 +10,4 @@ My self-imposed challenge is to make and post a Processing sketch every day for 
 
 <canvas data-processing-sources="/Scripts/Bubbles.pde"></canvas>
 
-Here are some bubbles that move using vecotrs. Clicking and holding on the sketch activates <i>slowmotion mode</i>.
+Here are some bubbles that move using vectors. Clicking and holding on the sketch activates <i>slowmotion mode</i>.
