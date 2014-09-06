@@ -6,9 +6,39 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Sep 2014 17:50:23 -0300</pubDate>
-    <lastBuildDate>Fri, 05 Sep 2014 17:50:23 -0300</lastBuildDate>
+    <pubDate>Sat, 06 Sep 2014 13:28:41 -0300</pubDate>
+    <lastBuildDate>Sat, 06 Sep 2014 13:28:41 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Happy Birthday Kailey</title>
+        <description>&lt;p&gt;My friend Kailey is super great. She is very intelligent, thoughtful, trustworthy, and witty. She is also a skilled visual artist, graphic designer, photographer, HTML/CSS/JavaScript coder, and a real wizard. Her cat Sebastian is an endearing creature with a poor set of lungs. Nothing serious, he just wheezes instead of meows. So I made this tiny game where you have a new set of lungs for Sebastian that you have to implant. To set them, just line up and click!&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/KaileyCat.pde&quot;&gt;&lt;/canvas&gt;
+</description>
+        <pubDate>Sat, 06 Sep 2014 10:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/06/happy-birthday-kailey.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/06/happy-birthday-kailey.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Processing Every Day *1*</title>
+        <description>&lt;p&gt;What is movement without acceleration? Not very exciting that’s what!&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/MovingWithAcceleration.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Here are some more bubbles that move using vectors, now with acceleration. Bubbles moving forward are pink, backwards are blue. The color of the bubble increases according to its velocity. After clicking on the sketch, holding the UP/DOWN arrow keys increase/decrease the acceleration. I tried to fine tune this to make the change of acceleration proportional to the velocity - if the bubble is moving very fast, the change in acceleration should be quicker than a bubble at rest. I think I got it looking and feeling better with this idea; although, if everything is at max velocity it might take a few seconds holding the arrow key to change direction, so bear this in mind!&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Sat, 06 Sep 2014 09:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/06/processing-every-day-1.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/06/processing-every-day-1.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Challenge Thyself</title>
@@ -18,7 +48,7 @@
 
 &lt;canvas data-processing-sources=&quot;/Scripts/Bubbles.pde&quot;&gt;&lt;/canvas&gt;
 
-&lt;p&gt;Here are some bubbles that move using vecotrs. Clicking and holding on the sketch activates &lt;i&gt;slowmotion mode&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some bubbles that move using vectors. Clicking and holding on the sketch activates &lt;i&gt;slowmotion mode&lt;/i&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Sep 2014 14:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/05/challenge-thyself.html</link>
