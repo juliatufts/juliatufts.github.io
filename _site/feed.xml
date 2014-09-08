@@ -6,9 +6,24 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 06 Sep 2014 13:28:41 -0300</pubDate>
-    <lastBuildDate>Sat, 06 Sep 2014 13:28:41 -0300</lastBuildDate>
+    <pubDate>Mon, 08 Sep 2014 01:09:14 -0300</pubDate>
+    <lastBuildDate>Mon, 08 Sep 2014 01:09:14 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Happy Birthday Sonya</title>
+        <description>&lt;p&gt;My friend Sonya is an otherworldly muse. She is very intelligent, charming, creative and amiable. She loves cute little animals, so I thought that I would make something with a pufferfish for her birthday.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/SonyBlowfish.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Click on the sketch and use the arrow keys to move around!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Sep 2014 21:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/07/happy-birthday-sonya.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/07/happy-birthday-sonya.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Happy Birthday Kailey</title>
