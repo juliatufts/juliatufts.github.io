@@ -9,3 +9,5 @@ My friend Sonya is an otherworldly muse. She is very intelligent, charming, crea
 <canvas data-processing-sources="/Scripts/SonyBlowfish.pde"></canvas>
 
 Click on the sketch and use the arrow keys to move around!
+
+<center>[Challenge: Make and post a Processing sketch every day for 100 days]</center>
