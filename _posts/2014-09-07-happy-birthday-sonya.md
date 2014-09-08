@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-date: 2014-09-07 24:00:00
+date: 2014-09-07 23:59:00
 title: Happy Birthday Sonya
 ---
 
