@@ -107,13 +107,13 @@ class Mover{
   
   void checkEdges(){
     if(location.x - tail.x > width + ballDiam/2){
-      location.x = 0;  
+      location.x = -ballDiam/2;  
     } else if(location.x < -ballDiam/2){
       location.x = width;
     }
     
     if(location.y - tail.y > height + ballDiam/2){
-      location.y = 0;  
+      location.y = -ballDiam/2;  
     } else if(location.y < -ballDiam/2){
       location.y = height;
     }
