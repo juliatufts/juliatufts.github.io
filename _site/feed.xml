@@ -6,9 +6,26 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Sep 2014 16:46:07 -0300</pubDate>
-    <lastBuildDate>Mon, 08 Sep 2014 16:46:07 -0300</lastBuildDate>
+    <pubDate>Tue, 09 Sep 2014 16:12:14 -0300</pubDate>
+    <lastBuildDate>Tue, 09 Sep 2014 16:12:14 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Colorful Attraction</title>
+        <description>&lt;p&gt;Playing around with movement, and objects accelerating towards the mouse.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/AccelerationTowardsMouse.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;The color puffs move towards the mouse with varying top speed, depending on their size. The smaller ones tend to move more slowly than the larger ones. Notice how this allows them to get closer to the mouse cursor. You may also notice that the color opacity increases, the closer the puffs are to the mouse. I like the idea of gravitational forces, and having a colorful indicator of how compact things are; Sort of like you’re charging a super power!&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 13:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/09/colorful-attraction.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/09/colorful-attraction.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Meteors</title>
