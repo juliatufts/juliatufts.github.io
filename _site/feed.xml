@@ -6,9 +6,26 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Sep 2014 16:12:14 -0300</pubDate>
-    <lastBuildDate>Tue, 09 Sep 2014 16:12:14 -0300</lastBuildDate>
+    <pubDate>Wed, 10 Sep 2014 17:19:08 -0300</pubDate>
+    <lastBuildDate>Wed, 10 Sep 2014 17:19:08 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Not the Bees</title>
+        <description>&lt;p&gt;Playing around with random acceleration to get a jitter effect.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/Bees.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;These bees accelerate towards the hive with a slightly random value.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Wed, 10 Sep 2014 14:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/10/not-the-bees.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/10/not-the-bees.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Colorful Attraction</title>
