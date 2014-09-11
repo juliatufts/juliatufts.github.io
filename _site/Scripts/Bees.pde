@@ -1,10 +1,6 @@
 /* @pjs preload="/Scripts/Resources/BeeBackground.png"; */
 PImage background;
 Bee[] beeArray;
-color skyBlue;
-color gold;
-color goldenrod;
-color brown;
 int beeCount = 0;
 int timer = 0;
 int beeTracker = 0;
@@ -12,10 +8,6 @@ int beeTracker = 0;
 void setup() {
   size(400, 400); 
   background = loadImage("/Scripts/Resources/BeeBackground.png");
-  skyBlue = color(100, 203, 255);
-  gold = color(255, 215, 00);
-  goldenrod = color(218, 165, 32);
-  brown = color(96, 57, 16);
 
   beeArray = new Bee[6];
   for (int i = 0; i < beeArray.length; i++) {
@@ -24,7 +16,6 @@ void setup() {
 }
 
 void draw() {
-  //background(skyBlue);
   image(background, 0, 0);
 
   for (int i = 0; i < min(beeCount, beeArray.length); i++) {
