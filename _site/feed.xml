@@ -6,9 +6,26 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Sep 2014 14:57:38 -0300</pubDate>
-    <lastBuildDate>Fri, 12 Sep 2014 14:57:38 -0300</lastBuildDate>
+    <pubDate>Sat, 13 Sep 2014 13:14:40 -0300</pubDate>
+    <lastBuildDate>Sat, 13 Sep 2014 13:14:40 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Ball Pit</title>
+        <description>&lt;p&gt;Learning more about forces, and bouncing things made me think about ball pits. And wanting to jump into one.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/BallPit.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Hitting the bottom of the window adds a little extra bounce to the ball and sends it off to the side.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Sat, 13 Sep 2014 11:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/13/ball-pit.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/13/ball-pit.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Balloons</title>
@@ -155,33 +172,6 @@
         <pubDate>Fri, 05 Sep 2014 14:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/05/challenge-thyself.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/05/challenge-thyself.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Going For a Random Walk in Processing</title>
-        <description>&lt;p&gt;I started reading &lt;a href=&quot;http://natureofcode.com/&quot;&gt;The Nature of Code&lt;/a&gt; by Daniel Shiffman recently; it’s a book about mathematical principles in the physical world and how to program natural systems using Processing. The very first example is to make a random walker class whose instantiation looks something like this:&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/RandomWalker0.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;The above random walker is represented by a single black pixel who randomly moves up, down, left or right with equal probability. I iterated on this example a few times: I first made the random walker into a 10x10 pixel square that changed color over time. In this version it’s easier to see the walker’s current movement and overall walk.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/RandomWalker.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;I next made it so that the walker could only walk on squares it hadn’t already visited. This way, the canvas will fill up entirely with colored squares and then stop.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/RandomWalkerNoOverlap.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Looking at these beautifully moving walkers made me want to paint a river with them, so I did that.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/RandomWalkerDefinedRegion.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Here I used multiple random walkers and made each a little less random by setting their probability of moving right to 0.5, moving up to 0.25, and moving down to 0.25. I hope you enjoy watching these as much as I do! I’ll continue to blog about my progress with &lt;a href=&quot;http://natureofcode.com/&quot;&gt;The Nature of Code&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 Aug 2014 20:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/08/25/going-for-a-random-walk-in-processing.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/08/25/going-for-a-random-walk-in-processing.html</guid>
         
         
       </item>
