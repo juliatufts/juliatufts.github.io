@@ -26,13 +26,13 @@
 	<div class="feed">
 		<h1>Blog</h1>
 		
-			<h2>Ball Pit</h2>
-				<p class="time">Sep 13, 2014</p>
-				<p><p>Learning more about forces, and bouncing things made me think about ball pits. And wanting to jump into one.</p>
+			<h2>Bezier Curves</h2>
+				<p class="time">Sep 14, 2014</p>
+				<p><p>I decided to look more into Bezier curves, and try generating some with a sequence of points. I figured I could make a nice looking sine wave by joining two Bezier curves, the first with control points directly above the start and end points, and the second with control points below. This makes a nice pattern of start/end points and control points: the start/end points are always on a horizonal line, equally spaced and the control points are on another horizonal line, directly above or below them. Like dots on a grid. Then I linearly interpolate the control points from this starting position, to the next one in the pattern for the x-position, and increase the first control point’s y-position to make it stretch.</p>
 
-<canvas data-processing-sources="/Scripts/BallPit.pde"></canvas>
+<canvas data-processing-sources="/Scripts/BezierJoyDivision.pde"></canvas>
 
-<p>Hitting the bottom of the window adds a little extra bounce to the ball and sends it off to the side.</p>
+<p>Press space to pause if you want to get a better look!</p>
 
 <center>[Challenge: Make and post a Processing sketch every day for 100 days]</center>
 </p>
@@ -40,6 +40,8 @@
 		<a href="/blog-archive.html"><h3>ALL BLOG POSTS</h3></a>
 		<!-- LIST OF ALL BLAG POSTS
 		<ul>
+			
+				<li>14 Sep 2014 &raquo; <a href = "/2014/09/14/bezier-curves.html">Bezier Curves</a> 							</li>
 			
 				<li>13 Sep 2014 &raquo; <a href = "/2014/09/13/ball-pit.html">Ball Pit</a> 							</li>
 			

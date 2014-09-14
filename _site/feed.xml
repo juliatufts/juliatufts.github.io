@@ -6,9 +6,26 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 13 Sep 2014 13:14:40 -0300</pubDate>
-    <lastBuildDate>Sat, 13 Sep 2014 13:14:40 -0300</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2014 14:12:04 -0300</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2014 14:12:04 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Bezier Curves</title>
+        <description>&lt;p&gt;I decided to look more into Bezier curves, and try generating some with a sequence of points. I figured I could make a nice looking sine wave by joining two Bezier curves, the first with control points directly above the start and end points, and the second with control points below. This makes a nice pattern of start/end points and control points: the start/end points are always on a horizonal line, equally spaced and the control points are on another horizonal line, directly above or below them. Like dots on a grid. Then I linearly interpolate the control points from this starting position, to the next one in the pattern for the x-position, and increase the first control point’s y-position to make it stretch.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/BezierJoyDivision.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Press space to pause if you want to get a better look!&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 11:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/14/bezier-curves.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/14/bezier-curves.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ball Pit</title>
@@ -155,23 +172,6 @@
         <pubDate>Sat, 06 Sep 2014 09:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/06/processing-every-day-1.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/06/processing-every-day-1.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Challenge Thyself</title>
-        <description>&lt;p&gt;So I thought that I would try to make a lot of things to feel like I accomplished something; that’s the plan at least.&lt;/p&gt;
-
-&lt;p&gt;My self-imposed challenge is to make and post a Processing sketch every day for 100 days. Right now I’m reading about vectors in the Nature of Code. I am already very comfortable with these magnitude and direction endowed math thingies from studying them in university, but it’s good to have practice implementing them in a newly learned programming environment.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/Bubbles.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Here are some bubbles that move using vectors. Clicking and holding on the sketch activates &lt;i&gt;slowmotion mode&lt;/i&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 05 Sep 2014 14:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/05/challenge-thyself.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/05/challenge-thyself.html</guid>
         
         
       </item>
