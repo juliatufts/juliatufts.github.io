@@ -4,7 +4,7 @@ date: 2014-09-16 13:00:00
 title: Happy Birthday Devin
 ---
 
-My friend Devin is pfc. He is very intelligent, artistic, spirited, charismatic and has great style. He is one of the best programmers I know. Hangouts with Devin are adventures where you're part of a super friend gang called the Chroma Luma Kids. They're the best.
+My friend Devin is p f c. He is very intelligent, artistic, spirited, charismatic and has great style. He is one of the best programmers I know. Hangouts with Devin are adventures where you're part of a super friend gang called the Chroma Luma Kids. They're the best.
 
 <canvas data-processing-sources="/Scripts/DevinComp.pde"></canvas>
 
