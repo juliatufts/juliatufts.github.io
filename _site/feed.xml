@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Sep 2014 14:12:04 -0300</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2014 14:12:04 -0300</lastBuildDate>
+    <pubDate>Mon, 15 Sep 2014 22:36:44 -0300</pubDate>
+    <lastBuildDate>Mon, 15 Sep 2014 22:36:44 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Friction</title>
+        <description>&lt;p&gt;Back to Nature of Code, this time playing around with friction. The balls closer to the center of the screen have a lower coefficient of friction: this means that the friction force is less and so they move faster than the balls with a higher coefficient. The equation for &lt;b&gt;Friction&lt;/b&gt; (a vector) is&lt;/p&gt;
+&lt;center&gt;&lt;b&gt;Friction&lt;/b&gt; = -1 * c * N * &lt;b&gt;v&lt;/b&gt;&lt;/center&gt;
+&lt;p&gt;where c is the coefficient of friction, N is the normal force, and &lt;b&gt;v&lt;/b&gt; is the velocity.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/MoversFriction.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Thinking about forces and friction reminds me of that Magic School Bus episode where they’re playing baseball on a field with coefficient of friction equal to 0. What a great episode.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Mon, 15 Sep 2014 19:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/15/friction.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/15/friction.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Bezier Curves</title>
@@ -155,23 +174,6 @@
         <pubDate>Sat, 06 Sep 2014 10:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/06/happy-birthday-kailey.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/06/happy-birthday-kailey.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Processing Every Day *1*</title>
-        <description>&lt;p&gt;What is movement without acceleration? Not very exciting that’s what!&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/MovingWithAcceleration.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Here are some more bubbles that move using vectors, now with acceleration. Bubbles moving forward are pink, backwards are blue. The color of the bubble increases according to its velocity. After clicking on the sketch, holding the UP/DOWN arrow keys increase/decrease the acceleration. I tried to fine tune this to make the change of acceleration proportional to the velocity - if the bubble is moving very fast, the change in acceleration should be quicker than a bubble at rest. I think I got it looking and feeling better with this idea; although, if everything is at max velocity it might take a few seconds holding the arrow key to change direction, so bear this in mind!&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Sat, 06 Sep 2014 09:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/06/processing-every-day-1.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/06/processing-every-day-1.html</guid>
         
         
       </item>
