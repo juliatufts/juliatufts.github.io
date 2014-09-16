@@ -6,9 +6,24 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Sep 2014 22:36:44 -0300</pubDate>
-    <lastBuildDate>Mon, 15 Sep 2014 22:36:44 -0300</lastBuildDate>
+    <pubDate>Tue, 16 Sep 2014 12:19:39 -0300</pubDate>
+    <lastBuildDate>Tue, 16 Sep 2014 12:19:39 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Happy Birthday Devin</title>
+        <description>&lt;p&gt;My friend Devin is pfc. He is very intelligent, artistic, spirited, charismatic and has great style. He is one of the best programmers I know. Hangouts with Devin are adventures where you’re part of a super friend gang called the Chroma Luma Kids. They’re the best.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/DevinComp.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Click on the Sketch and type stuff! It’s a bit jank, but I thought it best not to spend even more time manually adjusting rectangles to make it pixel perfect.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Sep 2014 10:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/16/happy-birthday-devin.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/16/happy-birthday-devin.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Friction</title>
@@ -155,25 +170,10 @@
 &lt;canvas data-processing-sources=&quot;/Scripts/SonyBlowfish.pde&quot;&gt;&lt;/canvas&gt;
 
 &lt;p&gt;Click on the sketch and use the arrow keys to move around!&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
         <pubDate>Sun, 07 Sep 2014 20:59:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/07/happy-birthday-sonya.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/07/happy-birthday-sonya.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Happy Birthday Kailey</title>
-        <description>&lt;p&gt;My friend Kailey is super great. She is very intelligent, thoughtful, trustworthy, and witty. She is also a skilled visual artist, graphic designer, photographer, HTML/CSS/JavaScript coder, and a real wizard. Her cat Sebastian is an endearing creature with a poor set of lungs. Nothing serious, he just wheezes instead of meows. So I made this tiny game where you have a new set of lungs for Sebastian that you have to implant. To set them, just line up and click!&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/KaileyCat.pde&quot;&gt;&lt;/canvas&gt;
-</description>
-        <pubDate>Sat, 06 Sep 2014 10:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/06/happy-birthday-kailey.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/06/happy-birthday-kailey.html</guid>
         
         
       </item>

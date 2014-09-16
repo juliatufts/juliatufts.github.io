@@ -38,6 +38,7 @@ void draw(){
 void changeDirection(){
   coef = 0.05;
   for(int i = 0; i < moverArray.length; i++){
+    moverArray[i].velocity.y = 0;
     moverArray[i].gravity.y = -moverArray[i].gravity.y;
   }
 }
