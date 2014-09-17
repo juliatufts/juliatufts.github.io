@@ -6,13 +6,26 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Sep 2014 12:19:39 -0300</pubDate>
-    <lastBuildDate>Tue, 16 Sep 2014 12:19:39 -0300</lastBuildDate>
+    <pubDate>Wed, 17 Sep 2014 15:15:19 -0300</pubDate>
+    <lastBuildDate>Wed, 17 Sep 2014 15:15:19 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
+        <title>Fluid Resistance</title>
+        <description>&lt;p&gt;Learning about how to implement fluid resistance in the Nature of Code. You can click and drag on the ball to pick it up and drop it into water bins of varying resistance.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/MoversDrag.pde&quot;&gt;&lt;/canvas&gt;
+</description>
+        <pubDate>Wed, 17 Sep 2014 12:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/17/fluid-resistance.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/17/fluid-resistance.html</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Happy Birthday Devin</title>
-        <description>&lt;p&gt;My friend Devin is pfc. He is very intelligent, artistic, spirited, charismatic and has great style. He is one of the best programmers I know. Hangouts with Devin are adventures where you’re part of a super friend gang called the Chroma Luma Kids. They’re the best.&lt;/p&gt;
+        <description>&lt;p&gt;My friend Devin is p f c. He is very intelligent, artistic, spirited, charismatic and has great style. He is one of the best programmers I know. Hangouts with Devin are adventures where you’re part of a super friend gang called the Chroma Luma Kids. They’re the best.&lt;/p&gt;
 
 &lt;canvas data-processing-sources=&quot;/Scripts/DevinComp.pde&quot;&gt;&lt;/canvas&gt;
 
@@ -159,21 +172,6 @@
         <pubDate>Mon, 08 Sep 2014 11:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/08/meteors.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/08/meteors.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Happy Birthday Sonya</title>
-        <description>&lt;p&gt;My friend Sonya is an otherworldly muse. She is very intelligent, charming, creative and amiable. She loves cute little animals, so I thought that I would make something with a pufferfish for her birthday.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/SonyBlowfish.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Click on the sketch and use the arrow keys to move around!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 07 Sep 2014 20:59:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/07/happy-birthday-sonya.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/07/happy-birthday-sonya.html</guid>
         
         
       </item>
