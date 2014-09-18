@@ -6,9 +6,22 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Sep 2014 15:15:19 -0300</pubDate>
-    <lastBuildDate>Wed, 17 Sep 2014 15:15:19 -0300</lastBuildDate>
+    <pubDate>Thu, 18 Sep 2014 19:31:40 -0300</pubDate>
+    <lastBuildDate>Thu, 18 Sep 2014 19:31:40 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Planets</title>
+        <description>&lt;p&gt;Reading about gravitational attraction in the Nature of Code. Not completely satisfied with how the planets cross into the star sometimes, but at least I’m not in charge of designing our solar system amirite?&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/GravitationalAttraction.pde&quot;&gt;&lt;/canvas&gt;
+</description>
+        <pubDate>Thu, 18 Sep 2014 16:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/18/planets.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/18/planets.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Fluid Resistance</title>
@@ -155,23 +168,6 @@
         <pubDate>Tue, 09 Sep 2014 13:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/09/colorful-attraction.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/09/colorful-attraction.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Meteors</title>
-        <description>&lt;p&gt;More movement with acceleration. This is how the dinosaurs died.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/MeteorShower.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Press space to reset the meteors. Things I learned from the making of this sketch: if details are taking too long to make, don’t obsess about it; You can make nicer looking randomly generated clouds some other day!&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Mon, 08 Sep 2014 11:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/08/meteors.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/08/meteors.html</guid>
         
         
       </item>
