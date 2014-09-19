@@ -42,9 +42,11 @@ void draw(){
 }
 
 void mouseReleased(){
-  clicked = false;
-  mover.acceleration = new PVector(0,0);
-  mover.velocity = new PVector(0,0);
+  if(clicked){
+    clicked = false;
+    mover.acceleration = new PVector(0,0);
+    mover.velocity = new PVector(0,0);
+  }
 }
 
 class Mover {
