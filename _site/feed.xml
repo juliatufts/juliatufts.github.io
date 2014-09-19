@@ -6,8 +6,8 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Sep 2014 15:06:26 -0300</pubDate>
-    <lastBuildDate>Fri, 19 Sep 2014 15:06:26 -0300</lastBuildDate>
+    <pubDate>Fri, 19 Sep 2014 15:27:24 -0300</pubDate>
+    <lastBuildDate>Fri, 19 Sep 2014 15:27:24 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -17,6 +17,10 @@
 &lt;canvas data-processing-sources=&quot;/Scripts/LightGravity.pde&quot;&gt;&lt;/canvas&gt;
 
 &lt;p&gt;These are a bunch of star lights represented by white dots that are attracted to invisible points in space. Click on the sketch to reset!&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/LightGrid.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Here is a bonus sketch where the star lights start on a grid and follow invisible attractors that rotate around the center.&lt;/p&gt;
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
