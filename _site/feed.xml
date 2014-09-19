@@ -6,15 +6,36 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Sep 2014 19:31:40 -0300</pubDate>
-    <lastBuildDate>Thu, 18 Sep 2014 19:31:40 -0300</lastBuildDate>
+    <pubDate>Fri, 19 Sep 2014 15:06:26 -0300</pubDate>
+    <lastBuildDate>Fri, 19 Sep 2014 15:06:26 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
+        <title>Light Gravity</title>
+        <description>&lt;p&gt;Experimenting a little more with gravitational attraction.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/LightGravity.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;These are a bunch of star lights represented by white dots that are attracted to invisible points in space. Click on the sketch to reset!&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Fri, 19 Sep 2014 12:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/19/light-gravity.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/19/light-gravity.html</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Planets</title>
-        <description>&lt;p&gt;Reading about gravitational attraction in the Nature of Code. Not completely satisfied with how the planets cross into the star sometimes, but at least I’m not in charge of designing our solar system amirite?&lt;/p&gt;
+        <description>&lt;p&gt;Reading about gravitational attraction in the Nature of Code.&lt;/p&gt;
 
 &lt;canvas data-processing-sources=&quot;/Scripts/GravitationalAttraction.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Not completely satisfied with how the planets cross into the star sometimes, but at least I’m not in charge of designing our solar system amirite?&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
         <pubDate>Thu, 18 Sep 2014 16:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/18/planets.html</link>
@@ -25,9 +46,13 @@
     
       <item>
         <title>Fluid Resistance</title>
-        <description>&lt;p&gt;Learning about how to implement fluid resistance in the Nature of Code. You can click and drag on the ball to pick it up and drop it into water bins of varying resistance.&lt;/p&gt;
+        <description>&lt;p&gt;Learning about how to implement fluid resistance in the Nature of Code. &lt;/p&gt;
 
 &lt;canvas data-processing-sources=&quot;/Scripts/MoversDrag.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;You can click and drag on the ball to pick it up and drop it into water bins of varying resistance.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
         <pubDate>Wed, 17 Sep 2014 12:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/17/fluid-resistance.html</link>
@@ -151,23 +176,6 @@
         <pubDate>Wed, 10 Sep 2014 14:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/10/not-the-bees.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/10/not-the-bees.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Colorful Attraction</title>
-        <description>&lt;p&gt;Playing around with movement, and objects accelerating towards the mouse.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/AccelerationTowardsMouse.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;The color puffs move towards the mouse with varying top speed, depending on their size. The smaller ones tend to move more slowly than the larger ones. Notice how this allows them to get closer to the mouse cursor. You may also notice that the color opacity increases, the closer the puffs are to the mouse. I like the idea of gravitational forces, and having a colorful indicator of how compact things are; Sort of like you’re charging a super power!&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Tue, 09 Sep 2014 13:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/09/colorful-attraction.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/09/colorful-attraction.html</guid>
         
         
       </item>

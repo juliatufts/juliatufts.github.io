@@ -27,7 +27,6 @@ class Mover {
   PVector location;
   PVector velocity;
   PVector acceleration;
-  PVector gravity;
   float mass;
   float ballDiam;
   int hue;
@@ -39,7 +38,6 @@ class Mover {
     location = new PVector(tempx, tempy);
     velocity = new PVector(location.y > height/2 ? -1 : 1, 0);
     acceleration = new PVector(0, 0);
-    gravity = new PVector(0, 0.005*mass);
     hue = int(random(125, 225));
   }
 
@@ -50,7 +48,6 @@ class Mover {
 
   void update() {
     checkEdges();
-    applyForce(gravity);
     velocity.add(acceleration);
     location.add(velocity);
     acceleration.mult(0);
