@@ -6,9 +6,26 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Sep 2014 15:27:24 -0300</pubDate>
-    <lastBuildDate>Fri, 19 Sep 2014 15:27:24 -0300</lastBuildDate>
+    <pubDate>Sat, 20 Sep 2014 16:07:01 -0300</pubDate>
+    <lastBuildDate>Sat, 20 Sep 2014 16:07:01 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Checkerboard</title>
+        <description>&lt;p&gt;I started reviewing transformations in Processing and made a sliding checkerboard.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/CheckerboardSlide.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;One of the very first functions I wrote in Python was a checkerboard drawing function. Feeling all the nostalgia today friends.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Sat, 20 Sep 2014 13:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/2014/09/20/checkerboard.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/2014/09/20/checkerboard.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Light Gravity</title>
@@ -163,23 +180,6 @@
         <pubDate>Thu, 11 Sep 2014 11:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/11/leaves.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/11/leaves.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Not the Bees</title>
-        <description>&lt;p&gt;Playing around with random acceleration to get a jitter effect.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/Bees.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;These bees accelerate towards the hive with a slightly random value.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Wed, 10 Sep 2014 14:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/10/not-the-bees.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/10/not-the-bees.html</guid>
         
         
       </item>
