@@ -1,5 +1,8 @@
 ---
 layout: blogpost
+category: processing
+sketch: CheckerboardSlide.pde
+number: 15
 date: 2014-09-20 16:00:00
 title: Checkerboard
 ---

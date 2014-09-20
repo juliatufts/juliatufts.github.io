@@ -6,9 +6,26 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Sep 2014 16:07:01 -0300</pubDate>
-    <lastBuildDate>Sat, 20 Sep 2014 16:07:01 -0300</lastBuildDate>
+    <pubDate>Sat, 20 Sep 2014 18:31:44 -0300</pubDate>
+    <lastBuildDate>Sat, 20 Sep 2014 18:31:44 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Indecision</title>
+        <description>&lt;p&gt;I don’t really know what I’d like to do in life. I’ve just scaled the cliff face of university to discover an overgrown jungle at the top. I have no idea what the best way to approach it is, so I try hacking my way through one path, have second thoughts and double back, then try hacking my way through another and another. Never really getting anywhere, and never figuring out what the right way to do it was.&lt;/p&gt;
+
+&lt;p&gt;I do know that I would like to program. But what exactly? How do I figure that out? Should I go back to university? Should I try to find a job? I keep thinking around in circles, chopping at bits of that jungle once in a while but never making any real progess.&lt;/p&gt;
+
+&lt;p&gt;I’ve come to the conclusion that I’m not going to figure any of that out until I try a lot of things, write a lot of code, and undoubtedly make a lot of mistakes. The worst thing to do is get stuck and not do anything at all. I’m leaving for Hacker School in New York City in 12 days. I’m both excited and terrified to be thrown into the code cauldron, work on projects and meet new people with similar interests. I just need to find the self-direction to pick a thing and work hard at it, and not get held back by indecision.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Sep 2014 15:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/blog/2014/09/20/indecision.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/2014/09/20/indecision.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Checkerboard</title>
@@ -21,9 +38,11 @@
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
         <pubDate>Sat, 20 Sep 2014 13:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/20/checkerboard.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/20/checkerboard.html</guid>
+        <link>http://juliatufts.com/processing/2014/09/20/checkerboard.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/20/checkerboard.html</guid>
         
+        
+        <category>processing</category>
         
       </item>
     
@@ -163,23 +182,6 @@
         <pubDate>Fri, 12 Sep 2014 12:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/12/balloons.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/12/balloons.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Leaves</title>
-        <description>&lt;p&gt;Reading about forces with movement. Here is gravity and wind making some leaves move. Press space to apply more wind force!&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/LeafForce.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Note that I didn’t work in wind resistance yet, so these forces accumulate pretty fast and cause quite the whirlwind. But you can always press enter to reset :]&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Thu, 11 Sep 2014 11:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/11/leaves.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/11/leaves.html</guid>
         
         
       </item>
