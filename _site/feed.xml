@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Sep 2014 18:31:44 -0300</pubDate>
-    <lastBuildDate>Sat, 20 Sep 2014 18:31:44 -0300</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 20:52:30 -0300</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 20:52:30 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Square Rotation</title>
+        <description>&lt;p&gt;Playing around with rotations, nested pushMatrix() / popMatrix() blocks. &lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/SquareRotation.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;The overlapping squares come in two flavors: red/green/blue and yellow/cyan/magenta.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 18:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/processing/2014/09/21/square-rotation.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/21/square-rotation.html</guid>
+        
+        
+        <category>processing</category>
+        
+      </item>
     
       <item>
         <title>Indecision</title>
@@ -165,23 +184,6 @@
         <pubDate>Sat, 13 Sep 2014 11:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/13/ball-pit.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/13/ball-pit.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Balloons</title>
-        <description>&lt;p&gt;More forces with a little foray into Bezier curves.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/Balloons.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;I learned from a friend that helium is mined. I think that’s pretty neat.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Fri, 12 Sep 2014 12:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/12/balloons.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/12/balloons.html</guid>
         
         
       </item>
