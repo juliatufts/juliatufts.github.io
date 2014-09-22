@@ -45,7 +45,7 @@ h1 {
 	width: 100%;
 	margin: 0;
 	padding: 0.5em;
-	float: left;
+
 	font-family: Courier;
 }
 
@@ -74,7 +74,7 @@ h1 {
 .feed {
 	background-color: white;
 	border: 2px solid black;
-	margin: 4em 4em 2em 4em;
+	margin: 1em 4em 2em 4em;
 	padding: 0.5em;
 	
 	font-family: Helvetica;
@@ -130,8 +130,7 @@ h1 {
 
 /*invisible grid - for projects page*/
 .inv {
-	margin: 4em;
-	padding: 0.5em;
+	margin: 1em 4em 2em 4em;
 	
 	font-family: Courier;
 	text-align: center;

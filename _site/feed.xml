@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 20:52:30 -0300</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 20:52:30 -0300</lastBuildDate>
+    <pubDate>Mon, 22 Sep 2014 19:53:53 -0300</pubDate>
+    <lastBuildDate>Mon, 22 Sep 2014 19:53:53 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Eyeballs</title>
+        <description>&lt;p&gt;I’ve sort of been wanting to write something that looks like a vector field, an array of short lines pointing in the direction of an oncoming force.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/Eyeballs.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;But then I decided that it would be more amusing to makes eyes that stare at your mouse cursor.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Mon, 22 Sep 2014 17:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/processing/2014/09/22/eyeballs.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/22/eyeballs.html</guid>
+        
+        
+        <category>processing</category>
+        
+      </item>
     
       <item>
         <title>Square Rotation</title>
@@ -167,23 +186,6 @@
         <pubDate>Sun, 14 Sep 2014 11:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/14/bezier-curves.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/14/bezier-curves.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ball Pit</title>
-        <description>&lt;p&gt;Learning more about forces, and bouncing things made me think about ball pits. And wanting to jump into one.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/BallPit.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Hitting the bottom of the window adds a little extra bounce to the ball and sends it off to the side.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Sat, 13 Sep 2014 11:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/13/ball-pit.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/13/ball-pit.html</guid>
         
         
       </item>
