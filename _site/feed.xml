@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Sep 2014 19:53:53 -0300</pubDate>
-    <lastBuildDate>Mon, 22 Sep 2014 19:53:53 -0300</lastBuildDate>
+    <pubDate>Tue, 23 Sep 2014 21:22:54 -0300</pubDate>
+    <lastBuildDate>Tue, 23 Sep 2014 21:22:54 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Heart Signal</title>
+        <description>&lt;p&gt;Scaling things.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/HeartBeam.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;I am sick today, send love.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Tue, 23 Sep 2014 19:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/processing/2014/09/23/heart-signal.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/23/heart-signal.html</guid>
+        
+        
+        <category>processing</category>
+        
+      </item>
     
       <item>
         <title>Eyeballs</title>
@@ -169,23 +188,6 @@
         <pubDate>Mon, 15 Sep 2014 19:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/15/friction.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/15/friction.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Bezier Curves</title>
-        <description>&lt;p&gt;I decided to look more into Bezier curves, and try generating some with a sequence of points. I figured I could make a nice looking sine wave by joining two Bezier curves, the first with control points directly above the start and end points, and the second with control points below. This makes a nice pattern of start/end points and control points: the start/end points are always on a horizonal line, equally spaced and the control points are on another horizonal line, directly above or below them. Like dots on a grid. Then I linearly interpolate the control points from this starting position, to the next one in the pattern for the x-position, and increase the first control point’s y-position to make it stretch.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/BezierJoyDivision.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Press space to pause if you want to get a better look!&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Sun, 14 Sep 2014 11:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/14/bezier-curves.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/14/bezier-curves.html</guid>
         
         
       </item>
