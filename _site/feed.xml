@@ -6,9 +6,32 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Sep 2014 21:22:54 -0300</pubDate>
-    <lastBuildDate>Tue, 23 Sep 2014 21:22:54 -0300</lastBuildDate>
+    <pubDate>Wed, 24 Sep 2014 21:31:31 -0300</pubDate>
+    <lastBuildDate>Wed, 24 Sep 2014 21:31:31 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Cellular Automata</title>
+        <description>&lt;p&gt;Skipping ahead four chapters in The Nature Of Code because I’m starting to feel restless. Here is two dimensional cellular automata.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/CellularAutomata2D.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;I find it so incredible that a small finite set of rules can result in intricate pattern (like Sierpinski above) or complete chaos (like below).&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/CellularAutomata2Drandom.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Incidentally I am feeling better today.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Wed, 24 Sep 2014 18:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/processing/2014/09/24/cellular-automata.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/24/cellular-automata.html</guid>
+        
+        
+        <category>processing</category>
+        
+      </item>
     
       <item>
         <title>Heart Signal</title>
@@ -169,25 +192,6 @@
         <pubDate>Tue, 16 Sep 2014 10:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/16/happy-birthday-devin.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/16/happy-birthday-devin.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Friction</title>
-        <description>&lt;p&gt;Back to Nature of Code, this time playing around with friction. The balls closer to the center of the screen have a lower coefficient of friction: this means that the friction force is less and so they move faster than the balls with a higher coefficient. The equation for &lt;b&gt;Friction&lt;/b&gt; (a vector) is&lt;/p&gt;
-&lt;center&gt;&lt;b&gt;Friction&lt;/b&gt; = -1 * c * N * &lt;b&gt;v&lt;/b&gt;&lt;/center&gt;
-&lt;p&gt;where c is the coefficient of friction, N is the normal force, and &lt;b&gt;v&lt;/b&gt; is the velocity.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/MoversFriction.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Thinking about forces and friction reminds me of that Magic School Bus episode where they’re playing baseball on a field with coefficient of friction equal to 0. What a great episode.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Mon, 15 Sep 2014 19:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/15/friction.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/15/friction.html</guid>
         
         
       </item>
