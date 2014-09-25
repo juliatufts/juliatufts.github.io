@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 Sep 2014 21:31:31 -0300</pubDate>
-    <lastBuildDate>Wed, 24 Sep 2014 21:31:31 -0300</lastBuildDate>
+    <pubDate>Thu, 25 Sep 2014 19:26:29 -0300</pubDate>
+    <lastBuildDate>Thu, 25 Sep 2014 19:26:29 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Game of Life</title>
+        <description>&lt;p&gt;More from the chapter of cellular automata, here is Conway’s Game of Life&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/GameOfLife.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Click on the sketch and press space to reset!&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Thu, 25 Sep 2014 16:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/processing/2014/09/25/game-of-life.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/25/game-of-life.html</guid>
+        
+        
+        <category>processing</category>
+        
+      </item>
     
       <item>
         <title>Cellular Automata</title>
@@ -177,21 +196,6 @@
         <pubDate>Wed, 17 Sep 2014 12:00:00 -0300</pubDate>
         <link>http://juliatufts.com/2014/09/17/fluid-resistance.html</link>
         <guid isPermaLink="true">http://juliatufts.com/2014/09/17/fluid-resistance.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Happy Birthday Devin</title>
-        <description>&lt;p&gt;My friend Devin is p f c. He is very intelligent, artistic, spirited, charismatic and has great style. He is one of the best programmers I know. Hangouts with Devin are adventures where you’re part of a super friend gang called the Chroma Luma Kids. They’re the best.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/DevinComp.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Click on the Sketch and type stuff! It’s a bit jank, but I thought it best not to spend even more time manually adjusting rectangles to make it pixel perfect.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 16 Sep 2014 10:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/2014/09/16/happy-birthday-devin.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/2014/09/16/happy-birthday-devin.html</guid>
         
         
       </item>
