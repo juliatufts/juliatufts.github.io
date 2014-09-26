@@ -6,13 +6,13 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Sep 2014 19:26:29 -0300</pubDate>
-    <lastBuildDate>Thu, 25 Sep 2014 19:26:29 -0300</lastBuildDate>
+    <pubDate>Thu, 25 Sep 2014 21:51:17 -0300</pubDate>
+    <lastBuildDate>Thu, 25 Sep 2014 21:51:17 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>Game of Life</title>
-        <description>&lt;p&gt;More from the chapter of cellular automata, here is Conway’s Game of Life&lt;/p&gt;
+        <description>&lt;p&gt;More from the chapter of cellular automata, here is Conway’s Game of Life.&lt;/p&gt;
 
 &lt;canvas data-processing-sources=&quot;/Scripts/GameOfLife.pde&quot;&gt;&lt;/canvas&gt;
 

@@ -7,7 +7,7 @@ date: 2014-09-25 19:00:00
 title: Game of Life
 ---
 
-More from the chapter of cellular automata, here is Conway's Game of Life
+More from the chapter of cellular automata, here is Conway's Game of Life.
 
 <canvas data-processing-sources="/Scripts/GameOfLife.pde"></canvas>	
 
