@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: blog
 date:   2014-08-25 23:00:00
 title: Going For a Random Walk in Processing
 ---

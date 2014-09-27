@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: processing
 date: 2014-09-07 23:59:00
 title: Happy Birthday Sonya
 ---

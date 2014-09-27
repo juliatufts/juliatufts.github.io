@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: processing
 date: 2014-09-06 12:00:00
 title: Processing Every Day *1*
 ---

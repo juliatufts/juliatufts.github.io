@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: processing
 date: 2014-09-05 17:00:00
 title: Challenge Thyself
 ---

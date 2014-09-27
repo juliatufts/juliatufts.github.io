@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: blog
 date:   2014-08-22 21:00:00
 title: Blogging In
 ---

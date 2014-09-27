@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: processing
 date: 2014-09-09 16:00:00
 title: Colorful Attraction
 ---

@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: processing
 date: 2014-09-10 17:00:00
 title: Not the Bees
 ---

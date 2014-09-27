@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: blog
 date:   2014-08-23 23:00:00
 title: Getting the Math Feel
 ---

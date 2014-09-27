@@ -1,5 +1,6 @@
 ---
 layout: blogpost
+category: processing
 date: 2014-09-17 15:00:00
 title: Fluid Resistance
 ---
