@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Sep 2014 16:44:12 -0300</pubDate>
-    <lastBuildDate>Sat, 27 Sep 2014 16:44:12 -0300</lastBuildDate>
+    <pubDate>Sat, 27 Sep 2014 23:22:51 -0300</pubDate>
+    <lastBuildDate>Sat, 27 Sep 2014 23:22:51 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Cantor Set</title>
+        <description>&lt;p&gt;Cantor Set (two of them actually!) - take a line and keep removing the middle third.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/Cantor.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;Recursion is great.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Sat, 27 Sep 2014 20:20:00 -0300</pubDate>
+        <link>http://juliatufts.com/processing/2014/09/27/cantor-set.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/27/cantor-set.html</guid>
+        
+        
+        <category>processing</category>
+        
+      </item>
     
       <item>
         <title>Lightning</title>
@@ -181,25 +200,6 @@
         <pubDate>Fri, 19 Sep 2014 12:00:00 -0300</pubDate>
         <link>http://juliatufts.com/processing/2014/09/19/light-gravity.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/19/light-gravity.html</guid>
-        
-        
-        <category>processing</category>
-        
-      </item>
-    
-      <item>
-        <title>Planets</title>
-        <description>&lt;p&gt;Reading about gravitational attraction in the Nature of Code.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/GravitationalAttraction.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Not completely satisfied with how the planets cross into the star sometimes, but at least I’m not in charge of designing our solar system amirite?&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Thu, 18 Sep 2014 16:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/18/planets.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/18/planets.html</guid>
         
         
         <category>processing</category>
