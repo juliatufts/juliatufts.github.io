@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 Sep 2014 21:31:05 -0300</pubDate>
-    <lastBuildDate>Sun, 28 Sep 2014 21:31:05 -0300</lastBuildDate>
+    <pubDate>Mon, 29 Sep 2014 17:30:46 -0300</pubDate>
+    <lastBuildDate>Mon, 29 Sep 2014 17:30:46 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Trees</title>
+        <description>&lt;p&gt;More fractals, this time playing around with trees.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/Trees.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;The mouse position on the sketch determines the span and the branching factor. The horizontal axis maps to the span (the distance from the leftmost branch to the rightmost): left to right –&amp;gt; 0 to 180 degrees. The vertical axis maps to the branching factor (how many branches at each step): up to down –&amp;gt; 2 to 7. The minimum branch length to keep generating branches is a function of the branching factor so that the tree doesn’t explode in your computer :]&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Mon, 29 Sep 2014 14:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/processing/2014/09/29/trees.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/29/trees.html</guid>
+        
+        
+        <category>processing</category>
+        
+      </item>
     
       <item>
         <title>Koch Snowflake</title>
@@ -180,25 +199,6 @@
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Checkerboard</title>
-        <description>&lt;p&gt;I started reviewing transformations in Processing and made a sliding checkerboard.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/CheckerboardSlide.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;One of the very first functions I wrote in Python was a checkerboard drawing function. Feeling all the nostalgia today friends.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Sat, 20 Sep 2014 13:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/20/checkerboard.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/20/checkerboard.html</guid>
-        
-        
-        <category>processing</category>
         
       </item>
     
