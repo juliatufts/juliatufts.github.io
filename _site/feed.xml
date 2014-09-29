@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Sep 2014 23:22:51 -0300</pubDate>
-    <lastBuildDate>Sat, 27 Sep 2014 23:22:51 -0300</lastBuildDate>
+    <pubDate>Sun, 28 Sep 2014 21:31:05 -0300</pubDate>
+    <lastBuildDate>Sun, 28 Sep 2014 21:31:05 -0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Koch Snowflake</title>
+        <description>&lt;p&gt;Another favorite fractal - the Koch snowflake.&lt;/p&gt;
+
+&lt;canvas data-processing-sources=&quot;/Scripts/KochSnowflake.pde&quot;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;The sketch runs through five iterations but I wish it were infinitely many.&lt;/p&gt;
+
+&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
+</description>
+        <pubDate>Sun, 28 Sep 2014 18:00:00 -0300</pubDate>
+        <link>http://juliatufts.com/processing/2014/09/28/koch-snowflake.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/28/koch-snowflake.html</guid>
+        
+        
+        <category>processing</category>
+        
+      </item>
     
       <item>
         <title>Cantor Set</title>
@@ -177,29 +196,6 @@
         <pubDate>Sat, 20 Sep 2014 13:00:00 -0300</pubDate>
         <link>http://juliatufts.com/processing/2014/09/20/checkerboard.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/20/checkerboard.html</guid>
-        
-        
-        <category>processing</category>
-        
-      </item>
-    
-      <item>
-        <title>Light Gravity</title>
-        <description>&lt;p&gt;Experimenting a little more with gravitational attraction.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/LightGravity.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;These are a bunch of star lights represented by white dots that are attracted to invisible points in space. Click on the sketch to reset!&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/LightGrid.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Here is a bonus sketch where the star lights start on a grid and follow invisible attractors that rotate around the center.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Fri, 19 Sep 2014 12:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/19/light-gravity.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/19/light-gravity.html</guid>
         
         
         <category>processing</category>
