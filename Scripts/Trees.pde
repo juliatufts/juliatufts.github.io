@@ -26,6 +26,7 @@ void branch(float len, float theta, int bFactor) {
   } else {
     stroke(59, 29, 9);
   }
+  strokeWeight(map(len, 0, 100, 1, 5));
 
   //draw branch
   line(0, 0, 0, -len);
