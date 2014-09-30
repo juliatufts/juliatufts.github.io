@@ -59,11 +59,11 @@
 	  <!-- RIGHT SIDE -->
 		<div class="col span_1_of_2">
 			<div class="feed"; style="margin: 1em 1em 1em 0.25em">
-				<h1 style="margin-top: 0">Sketch of the Day</h1>
+				<h1 style="margin-top: 0">Processing</h1>
 				{% for post in site.categories.processing limit:1 %}
 					<center><p class="time">{{ post.date | date: "%b %-d, %Y" }}</p></center>
 					<canvas data-processing-sources="/Scripts/{{post.sketch}}"></canvas>			
-					<center><p>Challenge thyself to better thyself. This is <a href = "{{post.url}}">Day {{ post.number }}</a>.</p></center>
+					<center><p>Challenge thyself to better thyself. This is <a href = "{{post.url}}">Sketch {{ post.number }}</a>.</p></center>
 				{% endfor %}
 			</div>
 		</div>
