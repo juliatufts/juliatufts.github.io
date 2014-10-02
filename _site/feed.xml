@@ -6,9 +6,32 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Sep 2014 16:24:31 -0300</pubDate>
-    <lastBuildDate>Tue, 30 Sep 2014 16:24:31 -0300</lastBuildDate>
+    <pubDate>Thu, 02 Oct 2014 14:01:16 -0400</pubDate>
+    <lastBuildDate>Thu, 02 Oct 2014 14:01:16 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>New York Here I Come</title>
+        <description>&lt;p&gt;I am sitting in an airport waiting for a flight that will take me to New York City. And it still hasn’t sunk in that I will be spending the next three months learning and coding at Hacker School. I have a few ideas for projects I’d like to work on, but at the moment I’m feeling like getting a solid grounding in Python might be a good first step. I do want to make some games and graphics and visualization stuff. It is all very undecided and terrifying, but also exciting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/PostImages/NewYork.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My main objective at the moment is to get focused on something. I’m afraid I’ve been terribly unsure about everything so far and keep jumping around as a result. Other objectives include: &lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;blogging regularly (even if I cringe at my own writing sometimes)&lt;/span&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;span&gt;talk to people (and befriend some)&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;power through self-doubt&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;make time to not stress about things or feel like I should be working&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 02 Oct 2014 09:00:00 -0400</pubDate>
+        <link>http://juliatufts.com/blog/2014/10/02/new-york-here-i-come.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/2014/10/02/new-york-here-i-come.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Random Trees</title>
@@ -22,7 +45,7 @@
 
 &lt;center&gt;[More accomodating Challenge: Make and post 100 Processing sketches]&lt;/center&gt;
 </description>
-        <pubDate>Tue, 30 Sep 2014 13:00:00 -0300</pubDate>
+        <pubDate>Tue, 30 Sep 2014 12:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/30/random-trees.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/30/random-trees.html</guid>
         
@@ -41,7 +64,7 @@
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
-        <pubDate>Mon, 29 Sep 2014 14:00:00 -0300</pubDate>
+        <pubDate>Mon, 29 Sep 2014 13:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/29/trees.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/29/trees.html</guid>
         
@@ -60,7 +83,7 @@
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
-        <pubDate>Sun, 28 Sep 2014 18:00:00 -0300</pubDate>
+        <pubDate>Sun, 28 Sep 2014 17:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/28/koch-snowflake.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/28/koch-snowflake.html</guid>
         
@@ -79,7 +102,7 @@
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
-        <pubDate>Sat, 27 Sep 2014 20:20:00 -0300</pubDate>
+        <pubDate>Sat, 27 Sep 2014 19:20:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/27/cantor-set.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/27/cantor-set.html</guid>
         
@@ -98,7 +121,7 @@
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
-        <pubDate>Fri, 26 Sep 2014 20:59:59 -0300</pubDate>
+        <pubDate>Fri, 26 Sep 2014 19:59:59 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/26/lightning.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/26/lightning.html</guid>
         
@@ -117,7 +140,7 @@
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
-        <pubDate>Thu, 25 Sep 2014 16:00:00 -0300</pubDate>
+        <pubDate>Thu, 25 Sep 2014 15:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/25/game-of-life.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/25/game-of-life.html</guid>
         
@@ -140,7 +163,7 @@
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
-        <pubDate>Wed, 24 Sep 2014 18:00:00 -0300</pubDate>
+        <pubDate>Wed, 24 Sep 2014 17:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/24/cellular-automata.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/24/cellular-automata.html</guid>
         
@@ -159,7 +182,7 @@
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
-        <pubDate>Tue, 23 Sep 2014 19:00:00 -0300</pubDate>
+        <pubDate>Tue, 23 Sep 2014 18:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/23/heart-signal.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/23/heart-signal.html</guid>
         
@@ -178,28 +201,9 @@
 
 &lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
 </description>
-        <pubDate>Mon, 22 Sep 2014 17:00:00 -0300</pubDate>
+        <pubDate>Mon, 22 Sep 2014 16:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/22/eyeballs.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/22/eyeballs.html</guid>
-        
-        
-        <category>processing</category>
-        
-      </item>
-    
-      <item>
-        <title>Square Rotation</title>
-        <description>&lt;p&gt;Playing around with rotations, nested pushMatrix() / popMatrix() blocks. &lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/SquareRotation.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;The overlapping squares come in two flavors: red/green/blue and yellow/cyan/magenta.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Sun, 21 Sep 2014 18:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/21/square-rotation.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/21/square-rotation.html</guid>
         
         
         <category>processing</category>
