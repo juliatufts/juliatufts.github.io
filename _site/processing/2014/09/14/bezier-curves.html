@@ -1,4 +1,5 @@
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<meta charset="utf-8">
 	<title>Julia Tufts</title>
 	<link type="text/css" rel="stylesheet" href="/stylesheet.css">
@@ -20,10 +21,11 @@
 		</ul>
 	</div>
 	
-	<div class="feed">
-		<h1>Bezier Curves</h1>
-		<p class="time">Sep 14, 2014</p>
-		<p><p>I decided to look more into Bezier curves, and try generating some with a sequence of points. I figured I could make a nice looking sine wave by joining two Bezier curves, the first with control points directly above the start and end points, and the second with control points below. This makes a nice pattern of start/end points and control points: the start/end points are always on a horizonal line, equally spaced and the control points are on another horizonal line, directly above or below them. Like dots on a grid. Then I linearly interpolate the control points from this starting position, to the next one in the pattern for the x-position, and increase the first control point’s y-position to make it stretch.</p>
+	<center>
+		<div class="blog">
+			<h1>Bezier Curves</h1>
+			<p class="time">Sep 14, 2014</p>
+			<p><p>I decided to look more into Bezier curves, and try generating some with a sequence of points. I figured I could make a nice looking sine wave by joining two Bezier curves, the first with control points directly above the start and end points, and the second with control points below. This makes a nice pattern of start/end points and control points: the start/end points are always on a horizonal line, equally spaced and the control points are on another horizonal line, directly above or below them. Like dots on a grid. Then I linearly interpolate the control points from this starting position, to the next one in the pattern for the x-position, and increase the first control point’s y-position to make it stretch.</p>
 
 <canvas data-processing-sources="/Scripts/BezierJoyDivision.pde"></canvas>
 
@@ -31,6 +33,7 @@
 
 <center>[Challenge: Make and post a Processing sketch every day for 100 days]</center>
 </p>
-		<a href="/blog-archive.html"><h3>BACK TO BLOG ARCHIVE</h3></a>
-	</div>
+			<a href="/blog-archive.html"><h3>BACK TO BLOG ARCHIVE</h3></a>
+		</div>
+	</center>
 </body>

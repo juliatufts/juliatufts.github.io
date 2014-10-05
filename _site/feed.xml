@@ -6,20 +6,67 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Oct 2014 14:01:16 -0400</pubDate>
-    <lastBuildDate>Thu, 02 Oct 2014 14:01:16 -0400</lastBuildDate>
+    <pubDate>Sun, 05 Oct 2014 10:52:22 -0400</pubDate>
+    <lastBuildDate>Sun, 05 Oct 2014 10:52:22 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Hacker School Day -1</title>
+        <description>&lt;p&gt;It’s the day before my first day at Hacker School, so I thought that I would try to get the blog ball rolling before I inevitably become busy and fall behind on it. &lt;/p&gt;
+
+&lt;p&gt;I’m all settled into my new place in Brooklyn with former Hacker Schooler Jeff Fowler and roommate yet to be met Yuri. Both are musicians turned programmers, and I feel quite at home. The apartment is also beautiful with a large livingroom and kitchen area and lots of natural light; It also featues a piano (well, technically a weighted keyboard, but it’s quite nice) and whirltub bath.&lt;/p&gt;
+
+&lt;center&gt;
+	&lt;figure&gt;
+			&lt;img src=&quot;/PostImages/2014-10-05-hacker-school-day--1/livingroom.jpg&quot; alt=&quot;missing&quot; /&gt;
+			&lt;figcaption&gt;A peek into my new livingroom&lt;/figcaption&gt;
+	&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;The past few days have been settling in days - unpacking, figuring out cell phone stuff, buying groceries etc. I’ve also been reading and coding, mostly the wizard manual &lt;a href=&quot;http://mitpress.mit.edu/sicp/&quot;&gt;Structure and Interpretation of Computer Programs&lt;/a&gt; after hearing that there is a reading group starting up about it. I’ve read through Chapter 1.1, The Elements of Programming, and I think it’s great so far. It feels like lambda calculus (which makes perfect sense) but it’s extra nice to get to program everything while you learn (this book uses the Scheme dialect of Lisp).&lt;/p&gt;
+
+&lt;center&gt;
+	&lt;figure&gt;
+			&lt;img src=&quot;/PostImages/2014-10-05-hacker-school-day--1/SICP.jpg&quot; alt=&quot;missing&quot; /&gt;
+			&lt;figcaption&gt;Another perk of the new place - SICP is already on the bookshelf&lt;/figcaption&gt;
+	&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Future Things: &lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;I&#39;m still undecided about what I should work on at Hacker School, but am currently leaning towards diving into JavaScript (even though it&#39;s been a while and I need to seriously review) and making a game.&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span&gt;Tonight I am attending an informal dinner get-together with the women (and anyone who identifies as a woman) of Hacker School. I think it&#39;ll be like a warm up to the first day of school.&lt;/span&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;span&gt;I definitely need to start including some code in these blog posts, so I need to figure out formatting that. I&#39;ll probably test the waters with SICP first.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+	&lt;figure&gt;
+			&lt;img src=&quot;/PostImages/2014-10-05-hacker-school-day--1/touchdown.jpg&quot; alt=&quot;missing&quot; /&gt;
+			&lt;figcaption&gt;Touch down - prepare to be glitched NY&lt;/figcaption&gt;
+	&lt;/figure&gt;
+&lt;/center&gt;
+</description>
+        <pubDate>Sun, 05 Oct 2014 06:00:00 -0400</pubDate>
+        <link>http://juliatufts.com/blog/hackerschool/2014/10/05/hacker-school-day--1.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/05/hacker-school-day--1.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>hackerschool</category>
+        
+      </item>
     
       <item>
         <title>New York Here I Come</title>
         <description>&lt;p&gt;I am sitting in an airport waiting for a flight that will take me to New York City. And it still hasn’t sunk in that I will be spending the next three months learning and coding at Hacker School. I have a few ideas for projects I’d like to work on, but at the moment I’m feeling like getting a solid grounding in Python might be a good first step. I do want to make some games and graphics and visualization stuff. It is all very undecided and terrifying, but also exciting.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/PostImages/NewYork.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/PostImages/NewYork.png&quot; alt=&quot;Artistic Rendition of New York City&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My main objective at the moment is to get focused on something. I’m afraid I’ve been terribly unsure about everything so far and keep jumping around as a result. Other objectives include: &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;span&gt;blogging regularly (even if I cringe at my own writing sometimes)&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;talk to people (and befriend some)&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;talk to people&lt;/span&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;span&gt;power through self-doubt&lt;/span&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;span&gt;make time to not stress about things or feel like I should be working&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -185,25 +232,6 @@
         <pubDate>Tue, 23 Sep 2014 18:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/23/heart-signal.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/23/heart-signal.html</guid>
-        
-        
-        <category>processing</category>
-        
-      </item>
-    
-      <item>
-        <title>Eyeballs</title>
-        <description>&lt;p&gt;I’ve sort of been wanting to write something that looks like a vector field, an array of short lines pointing in the direction of an oncoming force.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/Eyeballs.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;But then I decided that it would be more amusing to makes eyes that stare at your mouse cursor.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Mon, 22 Sep 2014 16:00:00 -0400</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/22/eyeballs.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/22/eyeballs.html</guid>
         
         
         <category>processing</category>

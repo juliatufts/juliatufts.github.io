@@ -71,7 +71,7 @@ h1 {
 	background-color: #c1c1c1;
 }
 
-/*news feed*/
+/*general feed*/
 .feed {
 	background-color: white;
 	border: 2px solid black;
@@ -127,6 +127,63 @@ h1 {
 	margin-top: -16px;
 	font-family: Courier;
 	font-size: 0.85em;
+}
+
+/*-----------
+  blog feed
+------------*/
+
+.blog {
+	background-color: white;
+	border: 2px solid black;
+	margin: 1em 4em 2em 4em;
+	padding: 1em;
+	width: 800px;
+	
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 1em;
+	line-height: 161%;
+}
+
+.blog a {
+	color: #0074d9;
+	text-decoration: none;
+}
+.blog a:visited {
+	color: grey;
+}
+
+.blog img {
+	width: 40%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.blog ul {
+	width: 75%;
+	margin: auto;
+}
+
+.blog li {
+	color: #d4d4d4; /*so only the bullet is grey */
+}
+.blog li span {
+	color: black;
+}
+
+.blog h3 {
+	font-family: Courier;
+	text-align: center;
+	border: 2px solid black;
+}
+
+/*blog picture header*/
+.blog h4 {
+	font-family: Courier;
+	text-align: center;
 }
 
 /*invisible grid - for projects page*/

@@ -7,7 +7,7 @@ title: New York Here I Come
 
 I am sitting in an airport waiting for a flight that will take me to New York City. And it still hasn't sunk in that I will be spending the next three months learning and coding at Hacker School. I have a few ideas for projects I'd like to work on, but at the moment I'm feeling like getting a solid grounding in Python might be a good first step. I do want to make some games and graphics and visualization stuff. It is all very undecided and terrifying, but also exciting.
 
-<img src="/PostImages/NewYork.png">
+<img src="/PostImages/NewYork.png" alt="Artistic Rendition of New York City">
 
 My main objective at the moment is to get focused on something. I'm afraid I've been terribly unsure about everything so far and keep jumping around as a result. Other objectives include: 
 <ul>
