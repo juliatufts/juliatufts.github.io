@@ -2,7 +2,7 @@
 layout: blogpost
 category: [blog, hackerschool]
 date: 2014-10-05 23:59:00
-title: Hacker School Day 1
+title: Hacker School Day 0
 ---
 
 So, my first day. Wow. I met a ton of incredibly interesting, friendly, genuine people. The space is an incredible environment, teeming with energetic hacker schoolers eager to work and learn and asking questions and having conversations.
