@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 category: [blog, hackerschool]
-date: 2014-10-05 23:59:00
+date: 2014-10-07 23:59:00
 title: Hacker School Day 0
 ---
 
