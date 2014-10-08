@@ -6,12 +6,47 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Oct 2014 00:40:08 -0400</pubDate>
-    <lastBuildDate>Tue, 07 Oct 2014 00:40:08 -0400</lastBuildDate>
+    <pubDate>Tue, 07 Oct 2014 23:11:23 -0400</pubDate>
+    <lastBuildDate>Tue, 07 Oct 2014 23:11:23 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>Hacker School Day 1</title>
+        <description>&lt;p&gt;Another long and busy day. First thing this morning I managed to get my practice JavaScript calculator working, so yay (it turned out to be just a syntax error - alas!)&lt;/p&gt;
+
+&lt;p&gt;To be perfectly honest, today was a bit frustrating. I wanted to do on a project in JavaScript and talked to facilitator &lt;a href=&quot;http://maryrosecook.com/&quot;&gt;Mary Rose Cook&lt;/a&gt; for advice on where to start. She suggested taking a game I had written in Python and doing it in JS, so I started on that. And then a few hours in regretted it and don’t want to finish it (figuring out console input is no fun at all).&lt;/p&gt;
+
+&lt;p&gt;But. I met some more cool people, and went to a talk on recursion held by facilitator Alan O’Donnell which was pretty great and had all the mathy feels. I do know someone who is interested in writing a music visualization in Elm, and I meant to try to talk to them today but I got shy - so I will try to do that tomorrow. And we have our school photos out and mine didn’t turn out terrible!&lt;/p&gt;
+
+&lt;p&gt;So I will keep powering through, and try not to get discouraged even if I feel like I still don’t know what I’m doing.&lt;/p&gt;
+
+&lt;p&gt;Future Things: &lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;Structure and Interpretation of Computer Programs first meetup tomorrow (and I&#39;m leading an exercise!)&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Continue meeting people&lt;/span&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;span&gt;Continue scouting out other group projects&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Happy hour tomorrow evening&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+	&lt;figure&gt;
+			&lt;img style=&quot;width:200px;&quot; src=&quot;/PostImages/2014-10-07-hacker-school-day-1/HackerSchoolPhoto.jpg&quot; alt=&quot;missing&quot; /&gt;
+	&lt;/figure&gt;
+&lt;/center&gt;
+</description>
+        <pubDate>Tue, 07 Oct 2014 18:00:00 -0400</pubDate>
+        <link>http://juliatufts.com/blog/hackerschool/2014/10/07/hacker-school-day-1.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/07/hacker-school-day-1.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>hackerschool</category>
+        
+      </item>
+    
+      <item>
+        <title>Hacker School Day 0</title>
         <description>&lt;p&gt;So, my first day. Wow. I met a ton of incredibly interesting, friendly, genuine people. The space is an incredible environment, teeming with energetic hacker schoolers eager to work and learn and asking questions and having conversations.&lt;/p&gt;
 
 &lt;p&gt;Most of the day flew by in introductions, group discussions about what we were excited about and nervous about, lunch in China Town (where you can get dumplings for $3) and a couple of hours coding. I spent some time reading about JavaScript and coding along to make a terrible loan calculator, just to get the feel of a working client-side JS application (even though I can’t seem to get it working yet due to what I believe is the canvas element not being recognized.) In the evening I attended the Monday night talk held at eBay offices where &lt;a href=&quot;http://en.wikipedia.org/wiki/Cristina_Lopes&quot;&gt;Cristina Lopes&lt;/a&gt; talked about her book Exercises in Programming Style and the idea of abstracting style in programming. In her book she writes a simple program in 33 different styles; her talk tonight covered only a handful of them but the overall idea of identifying constraints that define a style, being aware of a variety of these styles and not getting stuck in any one type, was very clear. I also learned more about some new-to-me styles of programming using call-backs and concurrency.&lt;/p&gt;
@@ -24,7 +59,7 @@
 
 &lt;p&gt;Reflective Things: &lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;I think I let my social anxiety get the better part of me at times, but I tried my best to be myself. I just hope I didn&#39;t come off as quiet/aloof or anixous/spastic. Anyways, I tried to roll with it, and in the future I will be mindful of that.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;I think I let my social anxiety get the better part of me at times, but I tried my best to be myself. I just hope I didn&#39;t come off as quiet/aloof or anxious/spastic. Anyways, I tried to roll with it, and in the future I will be mindful of that.&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Future Things: &lt;/p&gt;
@@ -41,9 +76,9 @@
 	&lt;/figure&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Sun, 05 Oct 2014 19:59:00 -0400</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2014/10/05/hacker-school-day-0.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/05/hacker-school-day-0.html</guid>
+        <pubDate>Mon, 06 Oct 2014 19:59:00 -0400</pubDate>
+        <link>http://juliatufts.com/blog/hackerschool/2014/10/06/hacker-school-day-0.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/06/hacker-school-day-0.html</guid>
         
         
         <category>blog</category>
@@ -232,29 +267,6 @@
         <pubDate>Thu, 25 Sep 2014 15:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/25/game-of-life.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/25/game-of-life.html</guid>
-        
-        
-        <category>processing</category>
-        
-      </item>
-    
-      <item>
-        <title>Cellular Automata</title>
-        <description>&lt;p&gt;Skipping ahead four chapters in The Nature Of Code because I’m starting to feel restless. Here is two dimensional cellular automata.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/CellularAutomata2D.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;I find it so incredible that a small finite set of rules can result in intricate pattern (like Sierpinski above) or complete chaos (like below).&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/CellularAutomata2Drandom.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Incidentally I am feeling better today.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Wed, 24 Sep 2014 17:00:00 -0400</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/24/cellular-automata.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/24/cellular-automata.html</guid>
         
         
         <category>processing</category>
