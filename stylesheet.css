@@ -216,6 +216,18 @@ h1 {
 	color: black;
 }
 
+/* For JavaScript canvas */
+.jscanvas {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	  border: none;
+		width: 400px;
+		height: 400px;
+}
+
 /* for span_1_of_3 */
 #outline {
 	border: 2px solid black;
