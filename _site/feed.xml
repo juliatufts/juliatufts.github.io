@@ -6,9 +6,39 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Oct 2014 13:38:03 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Oct 2014 13:38:03 -0400</lastBuildDate>
+    <pubDate>Tue, 21 Oct 2014 17:23:25 -0400</pubDate>
+    <lastBuildDate>Tue, 21 Oct 2014 17:23:25 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Hacker School Day 12</title>
+        <description>&lt;p&gt;On the current agenda is JavaScript, Elm and Algorithms.&lt;/p&gt;
+
+&lt;p&gt;I started writing a small JavaScript game based on graph coloring. Today I talked to Mary about it, having set up the basic game objects but not sure how to proceed with handling user input. Somehow we got to talking about the global object, how the &lt;strong&gt;this&lt;/strong&gt; keyword behaves, how to use the arguments keyword properly, and how to make partial application functions. I’m still reading up about these and have yet to review the example code we went through together, but I definitely have a better sense of what’s going on.&lt;/p&gt;
+
+&lt;p&gt;The Elm music visualizer with Tanoy is coming along. The next step is incorporating audio, so I’ve started reading about how to do that with the JavaScript Web Audio API, so that we can port it to Elm as a Signal later (hopefully). Did I mention that Tanoy convinced me that we should present at last weeks demo Thursday event? Because he did and we presented a quick introduction to reactive graphics in Elm, ending with our current music visualization work. And I didn’t die, so I consider my first foray into public speaking at Hacker School a success. (I give credit to Tanoy and his effective “practice your presentation 5 times before you actually go and do it” method)&lt;/p&gt;
+
+&lt;p&gt;I also started a Coursera Algorithms course. I’m not sure how carefully I’ll actually follow through with it, but at the very least I’ll be watching the video lectures and trying to implement the algorithms presented in Python.&lt;/p&gt;
+
+&lt;p&gt;Future Things:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;Continue with Elm Music Visualizer&lt;/span&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;span&gt;Continue with JavaScript Graph Game&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Continue with Algorithms&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Read about D3.js, three.js and impactjs&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Pair with more hacker schoolers!&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 21 Oct 2014 13:00:00 -0400</pubDate>
+        <link>http://juliatufts.com/blog/hackerschool/2014/10/21/hacker-school-day-12.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/21/hacker-school-day-12.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>hackerschool</category>
+        
+      </item>
     
       <item>
         <title>Hacker School Day 8</title>
@@ -264,25 +294,6 @@
         <pubDate>Mon, 29 Sep 2014 13:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/29/trees.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/29/trees.html</guid>
-        
-        
-        <category>processing</category>
-        
-      </item>
-    
-      <item>
-        <title>Koch Snowflake</title>
-        <description>&lt;p&gt;Another favorite fractal - the Koch snowflake.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/KochSnowflake.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;The sketch runs through five iterations but I wish it were infinitely many.&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Sun, 28 Sep 2014 17:00:00 -0400</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/28/koch-snowflake.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/28/koch-snowflake.html</guid>
         
         
         <category>processing</category>
