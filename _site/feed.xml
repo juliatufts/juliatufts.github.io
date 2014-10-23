@@ -6,9 +6,29 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 Oct 2014 17:23:25 -0400</pubDate>
-    <lastBuildDate>Tue, 21 Oct 2014 17:23:25 -0400</lastBuildDate>
+    <pubDate>Thu, 23 Oct 2014 12:45:18 -0400</pubDate>
+    <lastBuildDate>Thu, 23 Oct 2014 12:45:18 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Hacker School Day 14</title>
+        <description>&lt;p&gt;Today I made an animation in JavaScript. Just press the button to make it start.&lt;/p&gt;
+
+&lt;canvas id=&quot;canvas&quot; class=&quot;jscanvas&quot; width=&quot;512px&quot; height=&quot;550px&quot;&gt;&lt;/canvas&gt;
+&lt;script src=&quot;/Scripts/machinelove.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Machine &amp;lt;3&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Oct 2014 09:00:00 -0400</pubDate>
+        <link>http://juliatufts.com/blog/hackerschool/2014/10/23/hacker-school-day-14.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/23/hacker-school-day-14.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>hackerschool</category>
+        
+      </item>
     
       <item>
         <title>Hacker School Day 12</title>
@@ -275,25 +295,6 @@
         <pubDate>Tue, 30 Sep 2014 12:00:00 -0400</pubDate>
         <link>http://juliatufts.com/processing/2014/09/30/random-trees.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/30/random-trees.html</guid>
-        
-        
-        <category>processing</category>
-        
-      </item>
-    
-      <item>
-        <title>Trees</title>
-        <description>&lt;p&gt;More fractals, this time playing around with trees.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/Trees.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;The mouse position on the sketch determines the span and the branching factor. The horizontal axis maps to the span (the distance from the leftmost branch to the rightmost): left to right –&amp;gt; 0 to 180 degrees. The vertical axis maps to the branching factor (how many branches at each step): up to down –&amp;gt; 2 to 7. The minimum branch length to keep generating branches is a function of the branching factor so that the tree doesn’t explode in your computer :]&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post a Processing sketch every day for 100 days]&lt;/center&gt;
-</description>
-        <pubDate>Mon, 29 Sep 2014 13:00:00 -0400</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/29/trees.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/29/trees.html</guid>
         
         
         <category>processing</category>
