@@ -10,8 +10,6 @@
 	
 	// machine
 	var machineImage = new Image(4096, 512);
-	machineImage.src = "/Scripts/Resources/MachineSpriteSheet.png";
-
 	var machine = sprite({
 		context: canvas.getContext('2d'),
 		width: 512,
@@ -28,8 +26,6 @@
 
 	// heart
 	var heartImage = new Image(16, 16);
-	heartImage.src = "/Scripts/Resources/Heart.png";
-
 	var heart = sprite({
 		context: canvas.getContext('2d'),
 		width: 18,
@@ -45,9 +41,11 @@
 		starty: 475
 	});
 
+	machineImage.src = "/Scripts/Resources/MachineSpriteSheet.png";
+	heartImage.src = "/Scripts/Resources/Heart.png";
+
 	// ---------------------------- Main Game Loop ---------------------- //
 	window.addEventListener('load', function(){
-		console.log("hi");
 		heart.yPos = canvas.height;	// adjust the heart's y position to be offscreen to start
   		gameLoop();
 	});
@@ -137,9 +135,11 @@
 
 	// Checks if the user has clicked on the machine button
 	var checkClick = function(canvas, event){
+
 		var rect = canvas.getBoundingClientRect();
-		var x = event.x - rect.left;
-		var y = event.y - rect.top;
+		// new mouse pos system to work with firefox
+		var x = event.offsetX || event.pageX - rect.left - window.scrollX;
+    	var y = event.offsetY || event.pageY - rect.top - window.scrollY;
 
 		if (17 <= x && x <= 40 && 266 <= y && y <= 290) {
 			machineOn = !machineOn;
