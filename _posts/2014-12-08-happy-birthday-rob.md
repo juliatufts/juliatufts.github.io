@@ -1,7 +1,7 @@
 ---
 layout: blogpost
-category: [blog, hackerschool]
-date: 2014-12-08 13:00:00
+category: blog
+date: 2014-12-08 11:00:00
 title: Happy Birthday Rob
 ---
 
