@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 08 Nov 2014 16:25:27 -0500</pubDate>
-    <lastBuildDate>Sat, 08 Nov 2014 16:25:27 -0500</lastBuildDate>
+    <pubDate>Mon, 08 Dec 2014 11:11:43 -0500</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2014 11:11:43 -0500</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Happy Birthday Rob</title>
+        <description>&lt;p&gt;My friend Rob is super great. He’s intelligent, funny and caring; he makes terrific puns and is a wildly-fast learning and skilled programmer. Anyways, it’s his birthday today so I made him a thing that’s at the link below.&lt;/p&gt;
+
+&lt;center&gt;&lt;h3 style=&quot;display: inline; padding: 5px&quot;&gt;&lt;a href=&quot;/robot_butler.html&quot;&gt;CLICK HERE&lt;/a&gt;&lt;/h3&gt;&lt;/center&gt;
+
+&lt;center&gt;...&lt;/center&gt;
+</description>
+        <pubDate>Mon, 08 Dec 2014 08:00:00 -0500</pubDate>
+        <link>http://juliatufts.com/blog/hackerschool/2014/12/08/happy-birthday-rob.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/12/08/happy-birthday-rob.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>hackerschool</category>
+        
+      </item>
     
       <item>
         <title>Hacker School Day 14</title>
@@ -277,27 +296,6 @@
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Random Trees</title>
-        <description>&lt;p&gt;ANNOUNCEMENT: I will be adjusting my Processing challenge to accomodate going to Hacker School. I will still aim to do 100 Processing sketches total, but it will be at a reduced rate - hopefully a couple a week.&lt;/p&gt;
-
-&lt;p&gt;Here are some randomly generated trees. I thought they had a good Tim Burton-esque vibe, so I ran with that.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/RandomTrees.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;Click on the sketch to generate a new set!&lt;/p&gt;
-
-&lt;center&gt;[More accomodating Challenge: Make and post 100 Processing sketches]&lt;/center&gt;
-</description>
-        <pubDate>Tue, 30 Sep 2014 12:00:00 -0400</pubDate>
-        <link>http://juliatufts.com/processing/2014/09/30/random-trees.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/09/30/random-trees.html</guid>
-        
-        
-        <category>processing</category>
         
       </item>
     
