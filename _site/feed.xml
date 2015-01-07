@@ -6,13 +6,13 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Jan 2015 21:43:29 -0400</pubDate>
-    <lastBuildDate>Tue, 06 Jan 2015 21:43:29 -0400</lastBuildDate>
+    <pubDate>Tue, 06 Jan 2015 21:49:53 -0400</pubDate>
+    <lastBuildDate>Tue, 06 Jan 2015 21:49:53 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>Step Sequencer</title>
-        <description>&lt;p&gt;My last project at Hacker School was a simple step sequencer made in javascript using the web audio API. It’s at the link below. Maybe I’ll write some more words about it later :)&lt;/p&gt;
+        <description>&lt;p&gt;My last project at Hacker School was a simple step sequencer made in JavaScript using the web audio API. It’s at the link below. Maybe I’ll write some more words about it later :)&lt;/p&gt;
 
 &lt;center&gt;&lt;h3 style=&quot;display: inline; padding: 5px&quot;&gt;&lt;a href=&quot;/sequencer.html&quot;&gt;CLICK HERE&lt;/a&gt;&lt;/h3&gt;&lt;/center&gt;
 
