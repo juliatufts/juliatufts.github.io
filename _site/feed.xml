@@ -6,9 +6,28 @@
 </description>
     <link>http://juliatufts.com/</link>
     <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Dec 2014 11:58:46 -0500</pubDate>
-    <lastBuildDate>Fri, 19 Dec 2014 11:58:46 -0500</lastBuildDate>
+    <pubDate>Tue, 06 Jan 2015 21:43:29 -0400</pubDate>
+    <lastBuildDate>Tue, 06 Jan 2015 21:43:29 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Step Sequencer</title>
+        <description>&lt;p&gt;My last project at Hacker School was a simple step sequencer made in javascript using the web audio API. It’s at the link below. Maybe I’ll write some more words about it later :)&lt;/p&gt;
+
+&lt;center&gt;&lt;h3 style=&quot;display: inline; padding: 5px&quot;&gt;&lt;a href=&quot;/sequencer.html&quot;&gt;CLICK HERE&lt;/a&gt;&lt;/h3&gt;&lt;/center&gt;
+
+&lt;center&gt;...&lt;/center&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2015 18:00:00 -0400</pubDate>
+        <link>http://juliatufts.com/blog/hackerschool/2015/01/06/step-sequencer.html</link>
+        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2015/01/06/step-sequencer.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>hackerschool</category>
+        
+      </item>
     
       <item>
         <title>Happy Birthday Rob</title>
@@ -18,7 +37,7 @@
 
 &lt;center&gt;...&lt;/center&gt;
 </description>
-        <pubDate>Mon, 08 Dec 2014 06:00:00 -0500</pubDate>
+        <pubDate>Mon, 08 Dec 2014 07:00:00 -0400</pubDate>
         <link>http://juliatufts.com/blog/2014/12/08/happy-birthday-rob.html</link>
         <guid isPermaLink="true">http://juliatufts.com/blog/2014/12/08/happy-birthday-rob.html</guid>
         
@@ -36,7 +55,7 @@
 
 &lt;p&gt;Machine &amp;lt;3&lt;/p&gt;
 </description>
-        <pubDate>Thu, 23 Oct 2014 09:00:00 -0400</pubDate>
+        <pubDate>Thu, 23 Oct 2014 10:00:00 -0300</pubDate>
         <link>http://juliatufts.com/blog/hackerschool/2014/10/23/hacker-school-day-14.html</link>
         <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/23/hacker-school-day-14.html</guid>
         
@@ -66,7 +85,7 @@
 	&lt;li&gt;&lt;span&gt;Pair with more hacker schoolers!&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 21 Oct 2014 13:00:00 -0400</pubDate>
+        <pubDate>Tue, 21 Oct 2014 14:00:00 -0300</pubDate>
         <link>http://juliatufts.com/blog/hackerschool/2014/10/21/hacker-school-day-12.html</link>
         <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/21/hacker-school-day-12.html</guid>
         
@@ -94,7 +113,7 @@
 	&lt;li&gt;&lt;span&gt;Continue working on JavaScript stuff&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 15 Oct 2014 10:00:00 -0400</pubDate>
+        <pubDate>Wed, 15 Oct 2014 11:00:00 -0300</pubDate>
         <link>http://juliatufts.com/blog/hackerschool/2014/10/15/hacker-school-day-8.html</link>
         <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/15/hacker-school-day-8.html</guid>
         
@@ -120,7 +139,7 @@
 	&lt;li&gt;&lt;span&gt;Monday Night Talk at eBay tonight&lt;/span&gt;&lt;/li&gt; 
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 13 Oct 2014 07:00:00 -0400</pubDate>
+        <pubDate>Mon, 13 Oct 2014 08:00:00 -0300</pubDate>
         <link>http://juliatufts.com/blog/hackerschool/2014/10/13/hacker-school-day-6.html</link>
         <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/13/hacker-school-day-6.html</guid>
         
@@ -141,7 +160,7 @@
 
 &lt;center&gt;[Challenge: Make and post 100 Processing sketches]&lt;/center&gt;
 </description>
-        <pubDate>Fri, 10 Oct 2014 19:59:00 -0400</pubDate>
+        <pubDate>Fri, 10 Oct 2014 20:59:00 -0300</pubDate>
         <link>http://juliatufts.com/processing/2014/10/10/heart-swipe.html</link>
         <guid isPermaLink="true">http://juliatufts.com/processing/2014/10/10/heart-swipe.html</guid>
         
@@ -174,7 +193,7 @@
 	&lt;/figure&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Tue, 07 Oct 2014 18:00:00 -0400</pubDate>
+        <pubDate>Tue, 07 Oct 2014 19:00:00 -0300</pubDate>
         <link>http://juliatufts.com/blog/hackerschool/2014/10/07/hacker-school-day-1.html</link>
         <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/07/hacker-school-day-1.html</guid>
         
@@ -216,7 +235,7 @@
 	&lt;/figure&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Mon, 06 Oct 2014 19:59:00 -0400</pubDate>
+        <pubDate>Mon, 06 Oct 2014 20:59:00 -0300</pubDate>
         <link>http://juliatufts.com/blog/hackerschool/2014/10/06/hacker-school-day-0.html</link>
         <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/06/hacker-school-day-0.html</guid>
         
@@ -263,7 +282,7 @@
 	&lt;/figure&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Sun, 05 Oct 2014 06:00:00 -0400</pubDate>
+        <pubDate>Sun, 05 Oct 2014 07:00:00 -0300</pubDate>
         <link>http://juliatufts.com/blog/hackerschool/2014/10/05/hacker-school-day--1.html</link>
         <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/05/hacker-school-day--1.html</guid>
         
@@ -271,29 +290,6 @@
         <category>blog</category>
         
         <category>hackerschool</category>
-        
-      </item>
-    
-      <item>
-        <title>New York Here I Come</title>
-        <description>&lt;p&gt;I am sitting in an airport waiting for a flight that will take me to New York City. And it still hasn’t sunk in that I will be spending the next three months learning and coding at Hacker School. I have a few ideas for projects I’d like to work on, but at the moment I’m feeling like getting a solid grounding in Python might be a good first step. I do want to make some games and graphics and visualization stuff. It is all very undecided and terrifying, but also exciting.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/PostImages/NewYork.png&quot; alt=&quot;Artistic Rendition of New York City&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My main objective at the moment is to get focused on something. I’m afraid I’ve been terribly unsure about everything so far and keep jumping around as a result. Other objectives include: &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;blogging regularly (even if I cringe at my own writing sometimes)&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;talk to people&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;power through self-doubt&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;make time to not stress about things or feel like I should be working&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 02 Oct 2014 09:00:00 -0400</pubDate>
-        <link>http://juliatufts.com/blog/2014/10/02/new-york-here-i-come.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/2014/10/02/new-york-here-i-come.html</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     
