@@ -76,15 +76,22 @@ h1 {
 	background-color: white;
 	border: 2px solid black;
 	margin: 1em 4em 2em 4em;
-	padding: 0.5em;
+	padding: 1em;
 	
+	text-align: left;
 	font-family: Helvetica;
 	font-size: 1em;
+	line-height: 161%;
+}
+
+.feed p {
+	margin: 1em;
 }
 
 .feed a {
 	color: #0074d9;
 	text-decoration: none;
+	display: inline-block
 }
 .feed a:visited {
 	color: grey;
@@ -114,6 +121,7 @@ h1 {
 	font-family: Courier;
 	text-align: center;
 	border: 2px solid black;
+	padding: 5px;
 }
 
 /*blog picture header*/
