@@ -285,15 +285,15 @@ h2.work:hover {
     box-shadow: -5px -5px rgb(0,255,255);
 }
 
-#randomwalk { background-image: url("../images/randomWalk_color.png"); }
-#eyeball { background-image: url("../images/eyeball_color.png"); }
-#birthday { background-image: url("../images/blowfish_color.png"); }
-#elder { background-image: url("../images/elder_color.png"); }
-#heritage { background-image: url("../images/heritage_color.png"); }
-#ghost { background-image: url("../images/ghost_color.png"); }
-#stepsequencer { background-image: url("../images/stepsequencer_color.png"); }
-#piano { background-image: url("../images/piano_color.png"); }
-#vixens { background-image: url("../images/vixens_color.png"); }
+#randomwalk { background-image: url("/images/randomWalk_color.png"); }
+#eyeball { background-image: url("/images/eyeball_color.png"); }
+#birthday { background-image: url("/images/blowfish_color.png"); }
+#elder { background-image: url("/images/elder_color.png"); }
+#heritage { background-image: url("/images/heritage_color.png"); }
+#ghost { background-image: url("/images/ghost_color.png"); }
+#stepsequencer { background-image: url("/images/stepsequencer_color.png"); }
+#piano { background-image: url("/images/piano_color.png"); }
+#vixens { background-image: url("/images/vixens_color.png"); }
 
 /************************************************/
 /******************** Blog **********************/
