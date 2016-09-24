@@ -1,0 +1,524 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    position: absolute;
+    background: #F1F1F1;	/* light grey */
+    min-width: 500px;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    text-align: center;
+}
+
+body {
+    background: #F1F1F1;    /* light grey */
+}
+
+/************************************************/
+/********************* Main *********************/
+/************************************************/
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: rgb(255, 0, 255);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.content {
+  display: inline-block;
+  text-align: left;
+  max-width: 640px;
+  margin: -10px 10px 10px -10px;
+}
+
+.magenta-bubble {
+    display: inline-block;
+    max-width: 640px;
+    border: 24px;
+    border-radius: 25px;
+    background-color: rgba(255, 0, 255, 0.4);
+    margin: -8px 8px 8px -8px;
+}
+
+.magenta-double {
+    display: inline-block;
+    max-width: 640px;
+    border: 24px;
+    border-radius: 25px;
+    background-color: rgba(255, 0, 255, 0.4);
+    padding: 1px;
+    margin: 0 auto;
+}
+
+.article {
+    padding: 12px;
+    border-radius: 25px;
+    border-radius: 25px;
+    background-color: #F8F8F8;  /* lightest grey */
+
+    color: black;
+}
+
+.article img {
+    max-width: 90%;
+}
+
+.button {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+    border: 5px solid rgb(0,255,255);
+    color: black;
+}
+
+.button:hover {
+    background-image: url("/images/spirals.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    border: 5px solid rgb(0,255,255);
+}
+
+.button:active {
+    color: rgb(255,0,255);
+}
+
+.subtle_button {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.subtle_button:hover {
+    color: rgb(0,255,255);
+}
+
+.subtle_button:active {
+    color: rgb(255,0,255);
+}
+
+p, ul, li {
+    margin: 10px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6em;
+}
+
+li {
+    margin-left: 50px;
+    color: rgb(0,230,230)
+}
+
+li span {
+    color: black;
+}
+
+p a {
+    color: rgb(0,230,230)
+}
+
+p a:hover {
+    color: rgb(0,255,255)
+}
+
+li a span {
+    color: 'cyan';
+}
+
+.center {
+    width: 100%;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+a.center {
+    color: rgb(0,230,230)
+}
+
+a.center:hover {
+    color: rgb(0,255,255)
+}
+
+/************************************************/
+/**************** Home page *********************/
+/************************************************/
+
+.home {
+    max-width: 350px;
+}
+
+h1.home {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: rgb(255, 0, 255);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+h2.home {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: rgb(255, 0, 255);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.top-margin {
+    margin-top: 10%;
+}
+
+.inline {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+img.icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.icon:hover {
+    background-color: rgb(255, 0, 255);
+}
+
+/************************************************/
+/********************* Work *********************/
+/************************************************/
+
+h1.center {
+    width: 100%;
+    max-width: 100%;
+}
+
+.work {    
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1.work {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 0, 255);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2.work {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(0,0,0,0);
+}
+
+h2.work:hover {
+    color: rgb(255,255,255);
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 10px 10px black;
+}
+
+.image {
+    margin: 20px;
+    box-shadow: 10px 10px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image:hover {
+    box-shadow: -5px -5px rgb(0,255,255);
+}
+
+#randomwalk { background-image: url("../images/randomWalk_color.png"); }
+#eyeball { background-image: url("../images/eyeball_color.png"); }
+#birthday { background-image: url("../images/blowfish_color.png"); }
+#elder { background-image: url("../images/elder_color.png"); }
+#heritage { background-image: url("../images/heritage_color.png"); }
+#ghost { background-image: url("../images/ghost_color.png"); }
+#stepsequencer { background-image: url("../images/stepsequencer_color.png"); }
+#piano { background-image: url("../images/piano_color.png"); }
+#vixens { background-image: url("../images/vixens_color.png"); }
+
+/************************************************/
+/******************** Blog **********************/
+/************************************************/
+
+h1.blog {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: rgb(255, 0, 255);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h2.blog {    
+    color: rgb(255, 0, 255);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+a.blog {
+    color: rgb(0,230,230)
+}
+
+a.blog:hover {
+    color: rgb(0,255,255)
+}
+
+.time {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 0.9em;
+}
+
+/************************************************/
+/****************** Nav bar *********************/
+/************************************************/
+
+#navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar_home {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(250,250,250,0.8);  /* lightest grey */
+}
+
+li.navbar {
+    float: left;
+    margin: 0;
+}
+
+li.navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Titillium Web', sans-serif;
+    
+    text-decoration: none;
+}
+
+li.navbar a:hover {
+    background-color: rgba(0, 255, 255, 0.4); 
+}
+
+li.navbar a:active {
+    background-color: rgba(0, 255, 255, 0.8); 
+}
+
+ul.navbar li.active {
+    text-decoration: underline;
+    -moz-text-decoration-color: rgb(255,0,255); /* Code for Firefox */
+    text-decoration-color: rgb(255,0,255);
+}
+
+.right-align {
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.name {    
+    font-weight: bold;
+}
+
+/************************************************/
+/***************** Div Grid *********************/
+/************************************************/
+
+/*sections*/
+.grid-section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*column setup*/
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*grouping*/
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*grid of two*/
+.span_2_of_2 {
+    width: 100%;
+}
+.span_1_of_2 {
+    width: 49%;
+}
+
+/*grid of three*/
+.span_3_of_3 {
+    width: 100%;
+}
+.span_2_of_3 {
+    width: 66.1%;
+}
+.span_1_of_3 {
+    width: 32.2%;
+}
+
+/*grid of three - SPACED*/
+.span_3_of_3_spaced {
+    width: 100%;
+}
+.span_2_of_3_spaced {
+    width: 64.1%;
+    padding: 1%;
+}
+.span_1_of_3_spaced {
+    width: 31.2%;
+    padding: 1%;
+}
+
+/*grid of four*/
+.span_4_of_4 {
+    width: 100%;
+}
+.span_3_of_4 {
+    width: 74%;
+}
+.span_2_of_4 {
+    width: 48%;
+}
+.span_1_of_4 {
+    width: 23%;
+}
+
+/*go full width at less than 480px*/
+@media only screen and (max-width: 480px) {
+    .col { 
+        margin: 1% 0 1% 0%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .span_2_of_2 {
+        width: 100%;    
+    }
+    .span_1_of_2 {
+        width: 100%;    
+    }
+    .span_3_of_3 {
+        width: 100%; 
+    }
+    .span_2_of_3 {
+        width: 100%; 
+    }
+    .span_1_of_3 {
+        width: 100%;
+        height: 20%;
+    }
+    .span_3_of_3_spaced {
+        width: 100%;
+    }
+    .span_2_of_3_spaced {
+        width: 100%;
+    }
+    .span_1_of_3_spaced {
+        width: 100%;
+    }
+    .span_4_of_4 {
+    width: 100%;
+    }
+    .span_3_of_4 {
+        width: 100%;
+    }
+    .span_2_of_4 {
+        width: 100%;
+    }
+    .span_1_of_4 {
+        width: 100%;
+    }
+}
+

@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: post
 category: blog
 date:   2014-08-22 21:00:00
 title: Blogging In
@@ -9,4 +9,6 @@ This blog is the result of a mental vector field shift; the need to concretize m
 
 I will aim to not spend too much time obsessing over posts, making them eloquent, complete and well-ordered. My blog motto will be : periodic over perfection. I hope to gain a better understanding of my own thoughts by writing about them, and track the progres of my ideas. And I hope you like reading about what I have to say. Wish me luck!
 
-<img src="/PostImages/2014-08-22.png">
+<center>
+	<img src="/blog/images/2014-08-22.png">
+</center>

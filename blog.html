@@ -1,43 +1,8 @@
 ---
+layout: page
+title: Blog Archive
 ---
 
-<!doctype html>
-<html lang="en">
-
-<head>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<meta charset="utf-8">
-	<title>Julia Tufts</title>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css">
-	<script src="/Scripts/processing.js"></script>
-</head>
-
-<body>
-	<div id="header">
-		<a href="/index.html">Julia Tufts</a>
-	</div>
-	
-	<div id="navbar">
-		<ul>
-			<li><a href="/index.html">Home</a></li>
-			<li><a href="/about.html">About</a></li>
-			<li><a href="/projects.html">Projects</a></li>
-			<li><a href="/cv.html">CV</a></li>
-			<li><a href="/blog.html">Blog</a></li>
-		</ul>
-	</div>
-	
-	<center>
-		<div class="blog">
-			<h1>Blog</h1>
-			{% for blogpost in site.posts limit:1 %}
-				<h2>{{ blogpost.title }}</h2>
-					<p class="time">{{ blogpost.date | date: "%b %-d, %Y" }}{% if blogpost.author %} • {{ blogpost.author }}{% endif %}{% if blogpost.meta %} • {{ blogpost.meta }}{% endif %}</p>
-					<p>{{ blogpost.content }}</p>
-			{% endfor %}
-			<a href="/blog-archive.html"><h3>ALL BLOG POSTS</h3></a>		
-		</div>
-	</center>
-</body>
-	
-</html>
+{% for post in site.categories.blog %}
+<p>{{post.date | date_to_string}} &raquo; <a href = "{{post.url}}">{{post.title}}</a></p>
+{% endfor %}

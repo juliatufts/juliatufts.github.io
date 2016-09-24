@@ -1,297 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Julia Tufts</title>
-    <description>Julia Tufts personal site, mathematics, programming, piano, music, games, python, C#, Unity3d
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://juliatufts.com/</link>
-    <atom:link href="http://juliatufts.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Mar 2015 18:35:00 -0300</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2015 18:35:00 -0300</lastBuildDate>
-    <generator>Jekyll v2.3.0</generator>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Sep 2016 17:04:29 -0300</pubDate>
+    <lastBuildDate>Sat, 24 Sep 2016 17:04:29 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Step Sequencer</title>
-        <description>&lt;p&gt;My last project at Hacker School was a simple step sequencer made in JavaScript using the web audio API. Check it out at the &lt;a href=&quot;/sequencer.html&quot;&gt;link&lt;/a&gt;!&lt;/p&gt;
+        <title>Meta Blog</title>
+        <description>&lt;p&gt;I decided to redo my website recently. It was nice to revisit a development process with a bunch of new knowledge and insight, and see how differently I approached it. It also gave me the chance to take a long hard look at the under-used moleskine journal that is my blog. That got me thinking about what sort of posts worked well, or didn’t, and why. So I decided to reflect a bit on that and try to get a better footing blogging forward.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/Projects/ProjectImages/sequencer2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;First let me point out a few reasons for writing a blog. These ones are ordered by how relevant they are to my experience.&lt;/p&gt;
 
-&lt;center&gt;&lt;h3 style=&quot;display: inline; padding: 5px&quot;&gt;&lt;a href=&quot;/sequencer.html&quot;&gt;OR JUST CLICK HERE&lt;/a&gt;&lt;/h3&gt;&lt;/center&gt;
+&lt;h2&gt;Why Blog?&lt;/h2&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;span&gt;You&#39;re learning about how to make a website that has a blog.&lt;/span&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;span&gt;You are learning/have learned about a thing, and would like to crystallize the knowledge of that thing. Explaining it in words is a good way to do that.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;You have a thought or opinion on something that doesn&#39;t necessarily correspond to learning, but you don&#39;t want to forget about it. By investigating and analyzing it, and then writing about your findings, you can flesh out your idea, add reasoning to your opinion, and avoid letting those precious brain gems of yours fall into the void of lost memory.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Intelligent people that you respect recommend that you write a blog, listing a variant of the reasons above, and/or some reasons of their own.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;center&gt;...&lt;/center&gt;
+&lt;h2&gt;How To Blog Well?&lt;/h2&gt;
+&lt;p&gt;What works well in a blog or not depends very much on the type of blog it is. In my case, I’m writing a small, low-effort blog on my personal website. At the moment I’m not expecting very many people to come across and read it, but I’m also aware that the possibility exists. In writing a blog, my biggest challenge is just getting the writing done and published itself. I have a tendency to be a perfectionist, spinning on drafts that never get finished. To overcome that, my main goal is to just simply write down more stuff that I am learning, or don’t want to forget. &lt;/p&gt;
+
+&lt;p&gt;Now, the word “well” is hard to define. Here are some pictures describing what I mean in this context:&lt;/p&gt;
+
+&lt;center&gt;
+	&lt;img style=&quot;max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_work_well.png&quot; alt=&quot;posts_that_work_well&quot; /&gt;
+	&lt;h3&gt;Posts that worked well&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;
+	&lt;img style=&quot;max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_do_not_work_well.png&quot; alt=&quot;posts_that_do_not_work_well&quot; /&gt;
+	&lt;h3&gt;Posts that did not work well&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;p&gt;With all of that in mind, here’s a summary of my findings:&lt;/p&gt;
+
+&lt;div style=&quot;margin-left: 2em;&quot;&gt;
+	&lt;h3&gt;What did work well&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;span&gt;Having posts, rather than not having any posts&lt;/span&gt;&lt;/li&gt; 
+		&lt;li&gt;&lt;span&gt;Posts with a clearly defined topic&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span&gt;Posts with pictures&lt;/span&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;h3&gt;What did not work well&lt;/h3&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;span&gt;Posts that were too personal for my comfort level&lt;/span&gt;&lt;/li&gt; 
+		&lt;li&gt;&lt;span&gt;Posts that didn&#39;t focus on a topic&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span&gt;Posts that were too short and didn&#39;t contain much concrete information&lt;/span&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The best general advice I glean from this is to have a clearly defined topic before you start writing a post. A blog post doesn’t always need to be an essay, but should contain at least one or two useful bits of knowledge or insight. A blog with posts is usually better than a blog with no posts, so try not to be discouraged from writing. You always learn more from your output (even if it’s not your best work), than you do from the nonexistant.&lt;/p&gt;
+
 </description>
-        <pubDate>Tue, 06 Jan 2015 18:00:00 -0400</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2015/01/06/step-sequencer.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2015/01/06/step-sequencer.html</guid>
+        <pubDate>Sat, 24 Sep 2016 11:00:00 -0300</pubDate>
+        <link>http://yourdomain.com/blog/2016/09/24/meta-blog.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/09/24/meta-blog.html</guid>
         
         
         <category>blog</category>
         
-        <category>hackerschool</category>
-        
       </item>
     
       <item>
-        <title>Happy Birthday Rob</title>
-        <description>&lt;p&gt;My friend Rob is super great. He’s intelligent, funny and caring; he makes terrific puns and is a wildly-fast learning and skilled programmer. Anyways, it’s his birthday today so I made him a thing that’s at the link below.&lt;/p&gt;
-
-&lt;center&gt;&lt;h3 style=&quot;display: inline; padding: 5px&quot;&gt;&lt;a href=&quot;/robot_butler.html&quot;&gt;CLICK HERE&lt;/a&gt;&lt;/h3&gt;&lt;/center&gt;
-
-&lt;center&gt;...&lt;/center&gt;
-</description>
-        <pubDate>Mon, 08 Dec 2014 07:00:00 -0400</pubDate>
-        <link>http://juliatufts.com/blog/2014/12/08/happy-birthday-rob.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/2014/12/08/happy-birthday-rob.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Hacker School Day 14</title>
+        <title>Machine &lt;3</title>
         <description>&lt;p&gt;Today I made an animation in JavaScript. Just press the button to make it start.&lt;/p&gt;
 
-&lt;canvas id=&quot;canvas&quot; class=&quot;jscanvas&quot; width=&quot;512px&quot; height=&quot;550px&quot;&gt;&lt;/canvas&gt;
-&lt;script src=&quot;/Scripts/machinelove.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Machine &amp;lt;3&lt;/p&gt;
+&lt;center&gt;
+	&lt;canvas id=&quot;canvas&quot; class=&quot;jscanvas&quot; width=&quot;512px&quot; height=&quot;550px&quot;&gt;&lt;/canvas&gt;
+	&lt;script src=&quot;/js/machinelove.js&quot;&gt;&lt;/script&gt;
+&lt;/center&gt;
 </description>
         <pubDate>Thu, 23 Oct 2014 10:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2014/10/23/hacker-school-day-14.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/23/hacker-school-day-14.html</guid>
+        <link>http://yourdomain.com/blog/2014/10/23/machine-love.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2014/10/23/machine-love.html</guid>
         
         
         <category>blog</category>
         
-        <category>hackerschool</category>
-        
       </item>
     
       <item>
-        <title>Hacker School Day 12</title>
-        <description>&lt;p&gt;On the current agenda is JavaScript, Elm and Algorithms.&lt;/p&gt;
-
-&lt;p&gt;I started writing a small JavaScript game based on graph coloring. Today I talked to Mary about it, having set up the basic game objects but not sure how to proceed with handling user input. Somehow we got to talking about the global object, how the &lt;strong&gt;this&lt;/strong&gt; keyword behaves, how to use the arguments keyword properly, and how to make partial application functions. I’m still reading up about these and have yet to review the example code we went through together, but I definitely have a better sense of what’s going on.&lt;/p&gt;
-
-&lt;p&gt;The Elm music visualizer with Tanoy is coming along. The next step is incorporating audio, so I’ve started reading about how to do that with the JavaScript Web Audio API, so that we can port it to Elm as a Signal later (hopefully). Did I mention that Tanoy convinced me that we should present at last weeks demo Thursday event? Because he did and we presented a quick introduction to reactive graphics in Elm, ending with our current music visualization work. And I didn’t die, so I consider my first foray into public speaking at Hacker School a success. (I give credit to Tanoy and his effective “practice your presentation 5 times before you actually go and do it” method)&lt;/p&gt;
-
-&lt;p&gt;I also started a Coursera Algorithms course. I’m not sure how carefully I’ll actually follow through with it, but at the very least I’ll be watching the video lectures and trying to implement the algorithms presented in Python.&lt;/p&gt;
-
-&lt;p&gt;Future Things:&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;Continue with Elm Music Visualizer&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;Continue with JavaScript Graph Game&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;Continue with Algorithms&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;Read about D3.js, three.js and impactjs&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;Pair with more hacker schoolers!&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 21 Oct 2014 14:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2014/10/21/hacker-school-day-12.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/21/hacker-school-day-12.html</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>hackerschool</category>
-        
-      </item>
-    
-      <item>
-        <title>Hacker School Day 8</title>
-        <description>&lt;p&gt;Back to the feeling of being overwhelmed and not entirely sure what to do. But I’ve been told that this is normal and temporary, so I think everything will be okay.&lt;/p&gt;
-
-&lt;p&gt;I decided that although I really like the material in the Structure and Interpretation of Computer Programs, it wasn’t what I wanted to be focusing on (at least not at the pace things were going) so I decided to put that aside for now.&lt;/p&gt;
-
-&lt;p&gt;Yesterday I made an analogue RGB clock. Today I reviewed it with Tom, a facilitator, and we improved the color arc functionality as well as developped a method for calculating the segments of time lengths that overlap in a generic way.&lt;/p&gt;
-
-&lt;canvas id=&quot;canvas&quot; class=&quot;jscanvas&quot; width=&quot;400px&quot; height=&quot;400px&quot;&gt;&lt;/canvas&gt;
-&lt;script src=&quot;/Scripts/rgbclock.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Future Things: &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;Working with Tanoy on a music visualizer in Elm&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;Continue working on JavaScript stuff&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 15 Oct 2014 11:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2014/10/15/hacker-school-day-8.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/15/hacker-school-day-8.html</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>hackerschool</category>
-        
-      </item>
-    
-      <item>
-        <title>Hacker School Day 6</title>
-        <description>&lt;p&gt;My first week at Hacker School went by in a blur. I spent a lot of time reading Structure and Interpretation of Computer Programs, programming in Scheme, learning Elm, reading a bit of Javascript, and attending talks on recursion, fundamentals of data structures and algorithms.&lt;/p&gt;
-
-&lt;p&gt;I also went to a few social things including happy hour at a “post-colonial British outpost in Jamaica” themed bar, and demo Thursday where I learned about max recursion depth in Python, and how Pokemon graphics are encrypted using Z-order curves. Oh, and I got to witness a blog being set up in 5 minutes to a rap song.&lt;/p&gt;
-
-&lt;p&gt;I’m still feeling a bit all over the place, but am doing alright. My biggest concern is SICP taking up too much of my time, so I might have to drop that for the time being.&lt;/p&gt;
-
-&lt;p&gt;Future Things: &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;Continue meeting people and asking what they&#39;re working on&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;Pair programming with Victor today on the Pair Programming Roulette (so meta)&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;Monday Night Talk at eBay tonight&lt;/span&gt;&lt;/li&gt; 
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 13 Oct 2014 08:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2014/10/13/hacker-school-day-6.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/13/hacker-school-day-6.html</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>hackerschool</category>
-        
-      </item>
-    
-      <item>
-        <title>Heart Swipe</title>
-        <description>&lt;p&gt;So Hacker School is keeping me extremely busy. I think it’ll be best not to pressure myself on this Processing challenge, so I hope this heart swipe will tide things over until I have time to make things again.&lt;/p&gt;
-
-&lt;canvas data-processing-sources=&quot;/Scripts/HeartSwipe.pde&quot;&gt;&lt;/canvas&gt;
-
-&lt;p&gt;&amp;lt;3&lt;/p&gt;
-
-&lt;center&gt;[Challenge: Make and post 100 Processing sketches]&lt;/center&gt;
-</description>
-        <pubDate>Fri, 10 Oct 2014 20:59:00 -0300</pubDate>
-        <link>http://juliatufts.com/processing/2014/10/10/heart-swipe.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/processing/2014/10/10/heart-swipe.html</guid>
-        
-        
-        <category>processing</category>
-        
-      </item>
-    
-      <item>
-        <title>Hacker School Day 1</title>
-        <description>&lt;p&gt;Another long and busy day. First thing this morning I managed to get my practice JavaScript calculator working, so yay (it turned out to be just a syntax error - alas!)&lt;/p&gt;
-
-&lt;p&gt;To be perfectly honest, today was a bit frustrating. I wanted to do on a project in JavaScript and talked to facilitator &lt;a href=&quot;http://maryrosecook.com/&quot;&gt;Mary Rose Cook&lt;/a&gt; for advice on where to start. She suggested taking a game I had written in Python and doing it in JS, so I started on that. And then a few hours in regretted it and don’t want to finish it (figuring out console input is no fun at all).&lt;/p&gt;
-
-&lt;p&gt;But. I met some more cool people, and went to a talk on recursion held by facilitator Alan O’Donnell which was pretty great and had all the mathy feels. I do know someone who is interested in writing a music visualization in Elm, and I meant to try to talk to them today but I got shy - so I will try to do that tomorrow. And we have our school photos out and mine didn’t turn out terrible!&lt;/p&gt;
-
-&lt;p&gt;So I will keep powering through, and try not to get discouraged even if I feel like I still don’t know what I’m doing.&lt;/p&gt;
-
-&lt;p&gt;Future Things: &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;Structure and Interpretation of Computer Programs first meetup tomorrow (and I&#39;m leading an exercise!)&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;Continue meeting people&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;Continue scouting out other group projects&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;Happy hour tomorrow evening&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <title>New York Here I Come</title>
+        <description>&lt;p&gt;I am sitting in an airport waiting for a flight that will take me to New York City. And it still hasn’t sunk in that I will be spending the next three months learning and coding at Hacker School. I have a few ideas for projects I’d like to work on, but at the moment I’m feeling like getting a solid grounding in Python might be a good first step. I do want to make some games and graphics and visualization stuff. It is all very undecided and terrifying, but also exciting.&lt;/p&gt;
 
 &lt;center&gt;
-	&lt;figure&gt;
-			&lt;img style=&quot;width:200px;&quot; src=&quot;/PostImages/2014-10-07-hacker-school-day-1/HackerSchoolPhoto.jpg&quot; alt=&quot;missing&quot; /&gt;
-	&lt;/figure&gt;
+	&lt;img src=&quot;/PostImages/NewYork.png&quot; alt=&quot;Artistic Rendition of New York City&quot; /&gt;
 &lt;/center&gt;
+
+&lt;p&gt;My main objective at the moment is to get focused on something. I’m afraid I’ve been terribly unsure about everything so far and keep jumping around as a result. Other objectives include: &lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;span&gt;blogging regularly (even if I cringe at my own writing sometimes)&lt;/span&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;span&gt;talk to people&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;power through self-doubt&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;make time to not stress about things or feel like I should be working&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+…&lt;br /&gt;
+note (2016/07/15): Hacker School has since rebranded as &lt;a href=&quot;https://www.recurse.com/&quot;&gt;The Recurse Center&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 07 Oct 2014 19:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2014/10/07/hacker-school-day-1.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/07/hacker-school-day-1.html</guid>
+        <pubDate>Thu, 02 Oct 2014 10:00:00 -0300</pubDate>
+        <link>http://yourdomain.com/blog/2014/10/02/new-york-here-i-come.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2014/10/02/new-york-here-i-come.html</guid>
         
         
         <category>blog</category>
-        
-        <category>hackerschool</category>
         
       </item>
     
       <item>
-        <title>Hacker School Day 0</title>
-        <description>&lt;p&gt;So, my first day. Wow. I met a ton of incredibly interesting, friendly, genuine people. The space is an incredible environment, teeming with energetic hacker schoolers eager to work and learn and asking questions and having conversations.&lt;/p&gt;
+        <title>Getting the Math Feel</title>
+        <description>&lt;p&gt;There is delightful satisfaction in experiencing a good math feel. This satisfaction is not only found in solving problems and proving theorems, it also resides in the most basic building blocks of mathematics. It’s a bit hard to describe the feeling that I’m talking about here, but I’ll try to give an easy-to-understand example.&lt;/p&gt;
 
-&lt;p&gt;Most of the day flew by in introductions, group discussions about what we were excited about and nervous about, lunch in China Town (where you can get dumplings for $3) and a couple of hours coding. I spent some time reading about JavaScript and coding along to make a terrible loan calculator, just to get the feel of a working client-side JS application (even though I can’t seem to get it working yet due to what I believe is the canvas element not being recognized.) In the evening I attended the Monday night talk held at eBay offices where &lt;a href=&quot;http://en.wikipedia.org/wiki/Cristina_Lopes&quot;&gt;Cristina Lopes&lt;/a&gt; talked about her book Exercises in Programming Style and the idea of abstracting style in programming. In her book she writes a simple program in 33 different styles; her talk tonight covered only a handful of them but the overall idea of identifying constraints that define a style, being aware of a variety of these styles and not getting stuck in any one type, was very clear. I also learned more about some new-to-me styles of programming using call-backs and concurrency.&lt;/p&gt;
+&lt;p&gt;Imagine a person, let’s call them camper Cal, who needs a sleeping bag to survive a cold night in the woods. You’re given a special sleeping bag of mathematics that is adjustable in size, and you need to fit it for Cal. Now keep in mind that this person is a set size - you can’t squeeze them even a tiny bit to fit into a sleeping bag that’s smaller than them. Any sleeping bag bigger than Cal will hold them alright, but you don’t want to settle for just alright, you want to adjust the sleeping bag to have the perfect fit.&lt;/p&gt;
 
-&lt;center&gt;
-	&lt;figure&gt;
-			&lt;img src=&quot;/PostImages/2014-10-07-hacker-school-day-0/hacker-school.png&quot; alt=&quot;missing&quot; /&gt;
-	&lt;/figure&gt;
-&lt;/center&gt;
+&lt;div class=&quot;section group&quot;&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/blog/images/2014-08-23-sleeping-bag3.png&quot; id=&quot;outline&quot; /&gt;
+		&lt;h4&gt;too small&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/blog/images/2014-08-23-sleeping-bag4.png&quot; id=&quot;outline&quot; /&gt;
+		&lt;h4&gt;alright&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/blog/images/2014-08-23-sleeping-bag2.png&quot; id=&quot;outline&quot; /&gt;
+		&lt;h4&gt;even better&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Reflective Things: &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;I think I let my social anxiety get the better part of me at times, but I tried my best to be myself. I just hope I didn&#39;t come off as quiet/aloof or anxious/spastic. Anyways, I tried to roll with it, and in the future I will be mindful of that.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;So we require two things for our sleeping bag. We need our camper to fit inside it, i.e. it must be bigger than them. We also want our sleeping bag to be the closest fit of all the sleeping bags bigger than Cal. We could also state our sleeping bag criteria as follows:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;span&gt;it must be bigger than Cal&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;it must be smaller than all other sleeping bags that are bigger than Cal&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That second point may seem a bit convoluted at first, but it is equivalent to “being the closest fit”.&lt;/p&gt;
 
-&lt;p&gt;Future Things: &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;Structure and Interpretation of Computer Programs reading group starts tomorrow.&lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;span&gt;I would like to meet more people (go outside my comfort zone on this!)&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;Scout out other group projects and join one if it sounds like a cool project.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;section group&quot;&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/blog/images/2014-08-23-sleeping-bag4.png&quot; id=&quot;outline&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/blog/images/2014-08-23-sleeping-bag2.png&quot; id=&quot;outline&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col span_1_of_3&quot;&gt;
+		&lt;img src=&quot;/blog/images/2014-08-23-sleeping-bag0.png&quot; id=&quot;outline&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 
-&lt;center&gt;
-	&lt;figure&gt;
-			&lt;img src=&quot;/PostImages/2014-10-07-hacker-school-day-0/hackers.jpg&quot; alt=&quot;missing&quot; /&gt;
-			&lt;figcaption&gt;Goal: hack the planet&lt;/figcaption&gt;
-	&lt;/figure&gt;
-&lt;/center&gt;
+&lt;p&gt;For me there are a few nice math feels going on here. One is the dual nature of finding the smallest bag of a collection of bags that are bigger than another rigid object. Like infinitely many sleeping bags expanding around a camper and then falling away as a single one with the closest fit remains. Another is thinking about this perfectly snug sleeping bag itself. That of all the bigger-than-Cal sleeping bags, it can fit inside all of them. That if it was even a hair smaller, it wouldn’t have room for Cal to fit. Like a perfectly fit camper container that clicks into place.&lt;/p&gt;
+
+&lt;p&gt;What I’ve just described is an analogue to something called the &lt;strong&gt;supremum&lt;/strong&gt; of a set. For a subset A of the real numbers (your general purpose numbers that include integers, decimals and pi), the supremum of A is the real number α that satisfies&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;span&gt;&amp;alpha; is an upper bound for A, meaning that for all x in A, &amp;alpha; &amp;ge; x&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;for all upper bounds b for A, &amp;alpha; &amp;le; b&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;One of my main objectives in learning how to program is to have the ability to embed good math feels into the accessible medium of games and interactive computer entities. Math can be dynamic and engaging, and it’s totally worth experiencing that.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 06 Oct 2014 20:59:00 -0300</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2014/10/06/hacker-school-day-0.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/06/hacker-school-day-0.html</guid>
+        <pubDate>Sat, 23 Aug 2014 20:00:00 -0300</pubDate>
+        <link>http://yourdomain.com/blog/2014/08/23/getting-the-math-feel.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2014/08/23/getting-the-math-feel.html</guid>
         
         
         <category>blog</category>
-        
-        <category>hackerschool</category>
         
       </item>
     
       <item>
-        <title>Hacker School Day -1</title>
-        <description>&lt;p&gt;It’s the day before my first day at Hacker School, so I thought that I would try to get the blog ball rolling before I inevitably become busy and fall behind on it. &lt;/p&gt;
+        <title>Blogging In</title>
+        <description>&lt;p&gt;This blog is the result of a mental vector field shift; the need to concretize my thoughts and create a presence with them has overpowered the uncertainess of me actually being able to do that. This uncertainess is not a lack of confidence in my own ability, but a tendency to get bogged down with the frustration of never being able to explain what’s going on in my head in a completely satisfactory way. My current working solution is to get whatever thoughts I’m having out there, no matter how messy or incomplete. I’ll be blogging about my progress as a programmer, what I’m learning, what I’m working on, ideas for future projects, concepts to explore, etc. etc.&lt;/p&gt;
 
-&lt;p&gt;I’m all settled into my new place in Brooklyn with former Hacker Schooler Jeff Fowler and roommate yet to be met Yuri. Both are musicians turned programmers, and I feel quite at home. The apartment is also beautiful with a large livingroom and kitchen area and lots of natural light; It also featues a piano (well, technically a weighted keyboard, but it’s quite nice) and whirltub bath.&lt;/p&gt;
-
-&lt;center&gt;
-	&lt;figure&gt;
-			&lt;img src=&quot;/PostImages/2014-10-05-hacker-school-day--1/livingroom.jpg&quot; alt=&quot;missing&quot; /&gt;
-			&lt;figcaption&gt;A peek into my new livingroom&lt;/figcaption&gt;
-	&lt;/figure&gt;
-&lt;/center&gt;
-
-&lt;p&gt;The past few days have been settling in days - unpacking, figuring out cell phone stuff, buying groceries etc. I’ve also been reading and coding, mostly the wizard manual &lt;a href=&quot;http://mitpress.mit.edu/sicp/&quot;&gt;Structure and Interpretation of Computer Programs&lt;/a&gt; after hearing that there is a reading group starting up about it. I’ve read through Chapter 1.1, The Elements of Programming, and I think it’s great so far. It feels like lambda calculus (which makes perfect sense) but it’s extra nice to get to program everything while you learn (this book uses the Scheme dialect of Lisp).&lt;/p&gt;
+&lt;p&gt;I will aim to not spend too much time obsessing over posts, making them eloquent, complete and well-ordered. My blog motto will be : periodic over perfection. I hope to gain a better understanding of my own thoughts by writing about them, and track the progres of my ideas. And I hope you like reading about what I have to say. Wish me luck!&lt;/p&gt;
 
 &lt;center&gt;
-	&lt;figure&gt;
-			&lt;img src=&quot;/PostImages/2014-10-05-hacker-school-day--1/SICP.jpg&quot; alt=&quot;missing&quot; /&gt;
-			&lt;figcaption&gt;Another perk of the new place - SICP is already on the bookshelf&lt;/figcaption&gt;
-	&lt;/figure&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Future Things: &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span&gt;I&#39;m still undecided about what I should work on at Hacker School, but am currently leaning towards diving into JavaScript (even though it&#39;s been a while and I need to seriously review) and making a game.&lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;span&gt;Tonight I am attending an informal dinner get-together with the women (and anyone who identifies as a woman) of Hacker School. I think it&#39;ll be like a warm up to the first day of school.&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;I definitely need to start including some code in these blog posts, so I need to figure out formatting that. I&#39;ll probably test the waters with SICP first.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-	&lt;figure&gt;
-			&lt;img src=&quot;/PostImages/2014-10-05-hacker-school-day--1/touchdown.jpg&quot; alt=&quot;missing&quot; /&gt;
-			&lt;figcaption&gt;Touch down - prepare to be glitched NY&lt;/figcaption&gt;
-	&lt;/figure&gt;
+	&lt;img src=&quot;/blog/images/2014-08-22.png&quot; /&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Sun, 05 Oct 2014 07:00:00 -0300</pubDate>
-        <link>http://juliatufts.com/blog/hackerschool/2014/10/05/hacker-school-day--1.html</link>
-        <guid isPermaLink="true">http://juliatufts.com/blog/hackerschool/2014/10/05/hacker-school-day--1.html</guid>
+        <pubDate>Fri, 22 Aug 2014 18:00:00 -0300</pubDate>
+        <link>http://yourdomain.com/blog/2014/08/22/blogging-in.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2014/08/22/blogging-in.html</guid>
         
         
         <category>blog</category>
-        
-        <category>hackerschool</category>
         
       </item>
     

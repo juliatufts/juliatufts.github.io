@@ -1,57 +1,243 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
 
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Julia Tufts</title>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css">
-	<script src="Scripts/processing.js"></script> <!--##############TEST################-->
+	<meta charset="UTF-8">
+    <title>Julia Tufts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/>
+
+    <!-- Use some Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700|Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Use Paper.js library -->
+	<script type="text/javascript" src="js/paper-full.js"></script>
+	<script type="text/paperscript" src="js/spiralScript2.js" canvas="myCanvas"></script>
+
+	<!-- Use fullPage.js -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				menu: '#navbar_home',
+				sectionsColor: ['clear', '#F1F1F1', '#F1F1F1', '#F1F1F1', '#F1F1F1'],
+				anchors: ['home', 'work', 'about', 'blog'],
+				autoScrolling: false,
+				fitToSection: false
+			});
+		});
+	</script>
 </head>
-
 <body>
-	<div id="header">
-		<a href="/index.html">Julia Tufts</a>
-	</div>
-	
-	<div id="navbar">
-		<ul>
-			<li><a href="/index.html">Home</a></li>
-			<li><a href="/about.html">About</a></li>
-			<li><a href="/projects.html">Projects</a></li>
-			<li><a href="/cv.html">CV</a></li>
-			<li><a href="/blog.html">Blog</a></li>
-		</ul>
+	<!-- Nav Bar -->
+	<div id="navbar_home">
+		<ul class="navbar">
+			<li class="navbar"><a class="name" href="#home"> J U L I A <b style="color: magenta">&#9734</b> T U F T S </a></li>
+			<li class="navbar" data-menuanchor="work"><a href="#work">Work</a></li>
+			<li class="navbar" data-menuanchor="about"><a href="#about">About</a></li>
+			<li class="navbar" data-menuanchor="blog"><a href="#blog">Blog</a></li>
+			
+		</ul> 
 	</div>
 
-		<div class="section group">
-			<!-- LEFT SIDE -->
-			<div class="col span_1_of_2">
-				<div style="margin: 1em 0.25em 1em 1em">
-					<div class="feed"; style="margin: 0">
-					<h1 style="margin: 0">Hello!</h1>
-							<center><p>I write code, play music and draw things. I also really like greyhounds</p>
-									<p><a href="https://github.com/juliatufts">Github</a> // <a href="https://twitter.com/julialynntufts">Twitter</a></p>
-								</center>
-								<img src="Images/UnderConstruction.png">
-					</div>	
+	<!-- Spiral Background -->
+	<canvas id="myCanvas" resize></canvas>
+
+	<div id="fullpage">
+
+		<!-- Homepage / Intro -->
+		<div class="section active" id="section0" data-anchor="home">
+			<br><br><br><br>
+			<div class="magenta-double home">
+			<div class="magenta-bubble home">
+			<div class="content home">
+				<div class="article">
+					<h1 class="home">Hi :></h1>
+					<p>I'm Julia, and this is my website.<br>
+					</p>
+					<div class="inline">
+						<a href="https://github.com/juliatufts">
+	  						<img class="icon" src="images/GitHub.png" alt="GitHub">
+						</a>
+					</div>
+					<div class="inline">
+						<a href="https://twitter.com/julialynntufts">
+							<img class="icon" src="images/Twitter.png" alt="Twitter">
+						</a>
+					</div >
+					<div class="inline">
+						<a href="mailto:juliatufts@gmail.com">
+							<img class="icon" src="images/Email.png" alt="Email">
+						</a>
+					</div>
 				</div>
 			</div>
-	  <!-- RIGHT SIDE -->
-		<div class="col span_1_of_2">
-			<div class="feed"; style="margin: 1em 1em 1em 0.25em">
+			</div>
+			</div>
+			<h1 class="home" style="margin: 0 auto;">&#8942;</h1>
+		</div>
 
-					<h1 style="margin: 0">Recent Blog</h1>
+		<!-- Work -->
+		<div class="section" id="section1" data-anchor="work">
+			<div class="main">
+			    			    
+			    <div class="grid-section group">
+
+			    	<!-- ART -->
+					<div class="col span_1_of_3">
+						<h1 class="work center">Visual</h1>
+
+						<a href="/work/random-walks.html">
+						<div class="image" id="randomwalk">
+							<h2 class="work">
+								Random Walks
+							</h2>
+						</div>
+						</a>
+
+						<a href="/work/sketches.html">
+						<div class="image" id="eyeball">
+							<h2 class="work">
+								Sketches
+							</h2>
+						</div>
+						</a>
+					</div>
+
+					<!-- CODE -->
+					<div class="col span_1_of_3">
+						<h1 class="work center">Playful</h1>
+
+						<a href="/work/birthday-games.html">
+						<div class="image" id="birthday">
+							<h2 class="work">
+								Birthday Games
+							</h2>
+						</div>
+						</a>
+
+						<a href="/work/elder-tech.html">
+						<div class="image" id="elder">
+							<h2 class="work">
+								Elder Technology
+							</h2>
+						</div>
+						</a>
+
+						<a href="/work/heritage-quest.html">
+						<div class="image" id="heritage">
+							<h2 class="work">
+								Heritage Quest
+							</h2>
+						</div>
+						</a>
+
+						<a href="/work/ghost-munch2.html">
+						<div class="image" id="ghost">
+							<h2 class="work">
+								Ghost Munch 2
+							</h2>
+						</div>
+						</a>
+					</div>
+
+					<!-- MUSIC -->
+					<div class="col span_1_of_3">
+						<h1 class="work center">Aural</h1>
+
+						<a href="/work/step-sequencer.html">
+						<div class="image" id="stepsequencer">
+							<h2 class="work">
+								Step Sequencer Deluxe
+							</h2>
+						</div>
+						</a>
+
+						<a href="/work/piano.html">
+						<div class="image" id="piano">
+							<h2 class="work">
+								Piano Works
+							</h2>
+						</div>
+						</a>
+
+						<a href="/work/vixens.html">
+						<div class="image" id="vixens">
+							<h2 class="work">
+								Vixens
+							</h2>
+						</div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- About -->
+		<div class="section" id="section2" data-anchor="about">
+			<h1 class="home" style="margin: 0 auto;">&#8942;</h1>
+			<br>
+			<div class="magenta-double">
+			<div class="magenta-bubble">
+			<div class="content">
+				<div class="article">
+					<h1 class="home">About</h1>
+					<div class="grid-section group">
+						<div class="col span_2_of_3">
+							<p>I'm a software developer at <a href="http://twistedoakstudios.com/">Twisted Oak Studios</a>. I mostly
+								work on VR technology using Unity and C#. In my spare 
+								time I like to make music, art and games.
+							</p>
+							<p> I have a BSc in mathematics and music from Dalhousie University.
+								I spent a lot of time studying classical piano and graph theory.
+							</p>
+							<p> My other pastimes include dancing Argentine tango, reading fiction, and fawning over greyhounds I 
+								meet in the park.
+							</p>
+						</div>
+						<div class="col span_1_of_3" style="text-align: center;">
+							<img src="images/greund.png" alt="Greyhound">
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+			<h1 class="home" style="margin: 0 auto;">&#8942;</h1>
+		</div>
+
+		<!-- Blog -->
+		<div class="section" id="section3" data-anchor="blog">
+			<div class="magenta-double">
+			<div class="magenta-bubble">
+			<div class="content">
+				<div class="article">
 					
-							<a href = "/blog/hackerschool/2015/01/06/step-sequencer.html"><h2>Step Sequencer</h2></a>
-							<p class="time">Jan 6, 2015</p>
-							<p>My last project at Hacker School was a simple step sequencer made in JavaScript using the web audio API. Check it out at the <a href="/sequencer.html">link</a>!</p>
+							<a href = "/blog/2016/09/24/meta-blog.html"><h2 class="blog">Meta Blog</h2></a>
+							<p>Sep 24, 2016</p>
+							<p>I decided to redo my website recently. It was nice to revisit a development process with a bunch of new knowledge and insight, and see how differently I approached it. It also gave me the chance to take a long hard look at the under-used moleskine journal that is my blog. That got me thinking about what sort of posts worked well, or didn’t, and why. So I decided to reflect a bit on that and try to get a better footing blogging forward.</p>
 
 
+							<p class="center"><a href="/blog/2016/09/24/meta-blog.html"> ...continue reading... </a></p>
 					
-				
+				</div>
+			</div>
+			</div>
+			</div>
+
+			<br><br><br>
+			<div class="content">
+				<a href="/blog.html">
+				<div class="article button">
+					<h2> &#9734 Blog Archive &#9734 </h2>
+				</div>
+				</a>
 			</div>
 		</div>
 	</div>
 </body>
-	
 </html>

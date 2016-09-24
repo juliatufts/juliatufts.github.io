@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: post
 category: blog
 date:   2014-08-23 23:00:00
 title: Getting the Math Feel
@@ -11,15 +11,15 @@ Imagine a person, letâ€™s call them camper Cal, who needs a sleeping bag to surv
 
 <div class="section group">
 	<div class="col span_1_of_3">
-		<img src="/PostImages/2014-08-23-sleeping-bag3.png" id="outline">
+		<img src="/blog/images/2014-08-23-sleeping-bag3.png" id="outline">
 		<h4>too small</h4>
 	</div>
 	<div class="col span_1_of_3">
-		<img src="/PostImages/2014-08-23-sleeping-bag4.png" id="outline">
+		<img src="/blog/images/2014-08-23-sleeping-bag4.png" id="outline">
 		<h4>alright</h4>
 	</div>
 	<div class="col span_1_of_3">
-		<img src="/PostImages/2014-08-23-sleeping-bag2.png" id="outline">
+		<img src="/blog/images/2014-08-23-sleeping-bag2.png" id="outline">
 		<h4>even better</h4>
 	</div>
 </div>
@@ -33,13 +33,13 @@ That second point may seem a bit convoluted at first, but it is equivalent to â€
 
 <div class="section group">
 	<div class="col span_1_of_3">
-		<img src="/PostImages/2014-08-23-sleeping-bag4.png" id="outline">
+		<img src="/blog/images/2014-08-23-sleeping-bag4.png" id="outline">
 	</div>
 	<div class="col span_1_of_3">
-		<img src="/PostImages/2014-08-23-sleeping-bag2.png" id="outline">
+		<img src="/blog/images/2014-08-23-sleeping-bag2.png" id="outline">
 	</div>
 	<div class="col span_1_of_3">
-		<img src="/PostImages/2014-08-23-sleeping-bag0.png" id="outline">
+		<img src="/blog/images/2014-08-23-sleeping-bag0.png" id="outline">
 	</div>
 </div>
 
