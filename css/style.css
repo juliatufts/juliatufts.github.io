@@ -20,6 +20,7 @@ canvas[resize] {
 
 body {
     background: #F1F1F1;    /* light grey */
+    width: 100%;
 }
 
 /************************************************/
