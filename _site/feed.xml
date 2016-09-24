@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Sep 2016 18:34:05 -0300</pubDate>
-    <lastBuildDate>Sat, 24 Sep 2016 18:34:05 -0300</lastBuildDate>
+    <pubDate>Sat, 24 Sep 2016 18:38:10 -0300</pubDate>
+    <lastBuildDate>Sat, 24 Sep 2016 18:38:10 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -30,15 +30,15 @@
 &lt;p&gt;Now, the word “well” is hard to define. Here are some pictures describing what I mean in this context:&lt;/p&gt;
 
 &lt;center&gt;
-	&lt;img style=&quot;width: 100%; max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_work_well.png&quot; alt=&quot;posts_that_work_well&quot; /&gt;
 	&lt;h3&gt;Posts that worked well&lt;/h3&gt;
+	&lt;img style=&quot;width: 100%; max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_work_well.png&quot; alt=&quot;posts_that_work_well&quot; /&gt;
 &lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;center&gt;
-	&lt;img style=&quot;width: 100%; max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_do_not_work_well.png&quot; alt=&quot;posts_that_do_not_work_well&quot; /&gt;
 	&lt;h3&gt;Posts that did not work well&lt;/h3&gt;
+	&lt;img style=&quot;width: 100%; max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_do_not_work_well.png&quot; alt=&quot;posts_that_do_not_work_well&quot; /&gt;
 &lt;/center&gt;
 
 &lt;p&gt;With all of that in mind, here’s a summary of my findings:&lt;/p&gt;
