@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Sep 2016 18:01:35 -0300</pubDate>
-    <lastBuildDate>Sat, 24 Sep 2016 18:01:35 -0300</lastBuildDate>
+    <pubDate>Sat, 24 Sep 2016 18:10:08 -0300</pubDate>
+    <lastBuildDate>Sat, 24 Sep 2016 18:10:08 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -30,14 +30,14 @@
 &lt;p&gt;Now, the word “well” is hard to define. Here are some pictures describing what I mean in this context:&lt;/p&gt;
 
 &lt;center&gt;
-	&lt;img style=&quot;max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_work_well.png&quot; alt=&quot;posts_that_work_well&quot; /&gt;
+	&lt;img style=&quot;width: 100%; max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_work_well.png&quot; alt=&quot;posts_that_work_well&quot; /&gt;
 	&lt;h3&gt;Posts that worked well&lt;/h3&gt;
 &lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;center&gt;
-	&lt;img style=&quot;max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_do_not_work_well.png&quot; alt=&quot;posts_that_do_not_work_well&quot; /&gt;
+	&lt;img style=&quot;width: 100%; max-width: 400px;&quot; src=&quot;/blog/images/2016-09-24-meta-blog/posts_that_do_not_work_well.png&quot; alt=&quot;posts_that_do_not_work_well&quot; /&gt;
 	&lt;h3&gt;Posts that did not work well&lt;/h3&gt;
 &lt;/center&gt;
 
@@ -93,7 +93,7 @@
         <description>&lt;p&gt;I am sitting in an airport waiting for a flight that will take me to New York City. And it still hasn’t sunk in that I will be spending the next three months learning and coding at Hacker School. I have a few ideas for projects I’d like to work on, but at the moment I’m feeling like getting a solid grounding in Python might be a good first step. I do want to make some games and graphics and visualization stuff. It is all very undecided and terrifying, but also exciting.&lt;/p&gt;
 
 &lt;center&gt;
-	&lt;img src=&quot;/PostImages/NewYork.png&quot; alt=&quot;Artistic Rendition of New York City&quot; /&gt;
+	&lt;img src=&quot;/blog/images/NewYork.png&quot; alt=&quot;Artistic Rendition of New York City&quot; /&gt;
 &lt;/center&gt;
 
 &lt;p&gt;My main objective at the moment is to get focused on something. I’m afraid I’ve been terribly unsure about everything so far and keep jumping around as a result. Other objectives include: &lt;/p&gt;
