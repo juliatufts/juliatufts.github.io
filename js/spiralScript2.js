@@ -17,10 +17,10 @@ var counterClockWise = false;	// the spirals drawn from the front of the list ar
 var maxSamples = 30;	// keep this low so that sampling doesn't take forever
 
 // Start from the left hand corner
-var startPoint = new Point( 0, view.size.height );
+var startPoint = new Point( 0, view.size.height - (maxRadius + strokeWidth) );
 
 // Use Poisson-disc method to get random sample points
-var samplePointsRight = poissonDisc(maxRadius * 1.5, maxSamples, view.size, startPoint);
+var samplePointsRight = poissonDisc(maxRadius * 1.5, maxSamples, {width: view.size.width, height: startPoint.y}, startPoint);
 var samplePointsLeft = samplePointsRight.splice( 0, Math.ceil( samplePointsRight.length / 2) );
 samplePointsRight.reverse();
 
