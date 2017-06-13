@@ -5,6 +5,10 @@
     <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- Link extra css when necessary -->
+    {% for css_name in page.css %}
+        <link rel="stylesheet" href="{{ css_name | prepend: site.baseurl }}">
+    {% endfor %}
 
     <!-- Make iPhone display properly -->
     <meta name="viewport" content="width=device-width; initial-scale=1.0;"> 

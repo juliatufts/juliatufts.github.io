@@ -4,11 +4,11 @@
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 18:49:40 -0300</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 18:49:40 -0300</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Jun 2017 07:53:54 -0300</pubDate>
+    <lastBuildDate>Tue, 13 Jun 2017 07:53:54 -0300</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Meta Blog</title>
@@ -18,14 +18,14 @@
 
 &lt;h2&gt;Why Blog?&lt;/h2&gt;
 &lt;ol&gt;
-	&lt;li&gt;&lt;span&gt;You&#39;re learning about how to make a website that has a blog.&lt;/span&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;span&gt;You're learning about how to make a website that has a blog.&lt;/span&gt;&lt;/li&gt; 
 	&lt;li&gt;&lt;span&gt;You are learning/have learned about a thing, and would like to crystallize the knowledge of that thing. Explaining it in words is a good way to do that.&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;You have a thought or opinion on something that doesn&#39;t necessarily correspond to learning, but you don&#39;t want to forget about it. By investigating and analyzing it, and then writing about your findings, you can flesh out your idea, add reasoning to your opinion, and avoid letting those precious brain gems of yours fall into the void of lost memory.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;You have a thought or opinion on something that doesn't necessarily correspond to learning, but you don't want to forget about it. By investigating and analyzing it, and then writing about your findings, you can flesh out your idea, add reasoning to your opinion, and avoid letting those precious brain gems of yours fall into the void of lost memory.&lt;/span&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;span&gt;Intelligent people that you respect recommend that you write a blog, listing a variant of the reasons above, and/or some reasons of their own.&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2&gt;How To Blog Well?&lt;/h2&gt;
-&lt;p&gt;What works well in a blog or not depends very much on the type of blog it is. In my case, I’m writing a small, low-effort blog on my personal website. At the moment I’m not expecting very many people to come across and read it, but I’m also aware that the possibility exists. In writing a blog, my biggest challenge is just getting the writing done and published itself. I have a tendency to be a perfectionist, spinning on drafts that never get finished. To overcome that, my main goal is to just simply write down more stuff that I am learning, or don’t want to forget. &lt;/p&gt;
+&lt;p&gt;What works well in a blog or not depends very much on the type of blog it is. In my case, I’m writing a small, low-effort blog on my personal website. At the moment I’m not expecting very many people to come across and read it, but I’m also aware that the possibility exists. In writing a blog, my biggest challenge is just getting the writing done and published itself. I have a tendency to be a perfectionist, spinning on drafts that never get finished. To overcome that, my main goal is to just simply write down more stuff that I am learning, or don’t want to forget.&lt;/p&gt;
 
 &lt;p&gt;Now, the word “well” is hard to define. Here are some pictures describing what I mean in this context:&lt;/p&gt;
 
@@ -52,16 +52,16 @@
 &lt;h3&gt;What did not work well&lt;/h3&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;span&gt;Posts that were too personal for my comfort level&lt;/span&gt;&lt;/li&gt; 
-	&lt;li&gt;&lt;span&gt;Posts that didn&#39;t focus on a topic&lt;/span&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;span&gt;Posts that were too short and didn&#39;t contain much concrete information&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Posts that didn't focus on a topic&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span&gt;Posts that were too short and didn't contain much concrete information&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The best general advice I glean from this is to have a clearly defined topic before you start writing a post. A blog post doesn’t always need to be an essay, but should contain at least one or two useful bits of knowledge or insight. A blog with posts is usually better than a blog with no posts, so try not to be discouraged from writing. You always learn more from your output (even if it’s not your best work), than you do from the nonexistent.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 24 Sep 2016 11:00:00 -0300</pubDate>
-        <link>http://yourdomain.com/blog/2016/09/24/meta-blog.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2016/09/24/meta-blog.html</guid>
+        <link>http://localhost:4000/blog/2016/09/24/meta-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/09/24/meta-blog.html</guid>
         
         
         <category>blog</category>
@@ -78,8 +78,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 23 Oct 2014 10:00:00 -0300</pubDate>
-        <link>http://yourdomain.com/blog/2014/10/23/machine-love.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/10/23/machine-love.html</guid>
+        <link>http://localhost:4000/blog/2014/10/23/machine-love.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/10/23/machine-love.html</guid>
         
         
         <category>blog</category>
@@ -94,7 +94,7 @@
 	&lt;img src=&quot;/blog/images/NewYork.png&quot; alt=&quot;Artistic Rendition of New York City&quot; /&gt;
 &lt;/center&gt;
 
-&lt;p&gt;My main objective at the moment is to get focused on something. I’m afraid I’ve been terribly unsure about everything so far and keep jumping around as a result. Other objectives include: &lt;/p&gt;
+&lt;p&gt;My main objective at the moment is to get focused on something. I’m afraid I’ve been terribly unsure about everything so far and keep jumping around as a result. Other objectives include:&lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;span&gt;blogging regularly (even if I cringe at my own writing sometimes)&lt;/span&gt;&lt;/li&gt; 
 	&lt;li&gt;&lt;span&gt;talk to people&lt;/span&gt;&lt;/li&gt;
@@ -107,8 +107,8 @@
 note (2016/07/15): Hacker School has since rebranded as &lt;a href=&quot;https://www.recurse.com/&quot;&gt;The Recurse Center&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Oct 2014 10:00:00 -0300</pubDate>
-        <link>http://yourdomain.com/blog/2014/10/02/new-york-here-i-come.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/10/02/new-york-here-i-come.html</guid>
+        <link>http://localhost:4000/blog/2014/10/02/new-york-here-i-come.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/10/02/new-york-here-i-come.html</guid>
         
         
         <category>blog</category>
@@ -166,8 +166,8 @@ note (2016/07/15): Hacker School has since rebranded as &lt;a href=&quot;https:/
 &lt;p&gt;One of my main objectives in learning how to program is to have the ability to embed good math feels into the accessible medium of games and interactive computer entities. Math can be dynamic and engaging, and it’s totally worth experiencing that.&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 Aug 2014 20:00:00 -0300</pubDate>
-        <link>http://yourdomain.com/blog/2014/08/23/getting-the-math-feel.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/08/23/getting-the-math-feel.html</guid>
+        <link>http://localhost:4000/blog/2014/08/23/getting-the-math-feel.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/08/23/getting-the-math-feel.html</guid>
         
         
         <category>blog</category>
@@ -185,8 +185,8 @@ note (2016/07/15): Hacker School has since rebranded as &lt;a href=&quot;https:/
 &lt;/center&gt;
 </description>
         <pubDate>Fri, 22 Aug 2014 18:00:00 -0300</pubDate>
-        <link>http://yourdomain.com/blog/2014/08/22/blogging-in.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/08/22/blogging-in.html</guid>
+        <link>http://localhost:4000/blog/2014/08/22/blogging-in.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/08/22/blogging-in.html</guid>
         
         
         <category>blog</category>
