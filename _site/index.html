@@ -26,8 +26,7 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				menu: '#navbar_home',
-				sectionsColor: ['clear', '#F1F1F1', '#F1F1F1', '#F1F1F1', '#F1F1F1'],
-				anchors: ['home', 'work', 'about', 'blog'],
+				sectionsColor: ['clear', '#F1F1F1'],
 				autoScrolling: false,
 				fitToSection: false
 			});
@@ -36,15 +35,14 @@
 </head>
 <body>
 	<!-- Nav Bar -->
-	<div id="navbar_home">
+	<nav id="navbar_home">
 		<ul class="navbar">
 			<li class="navbar"><a class="name" href="#home"> J U L I A <b style="color: magenta">&#9734</b> T U F T S </a></li>
-			<li class="navbar" data-menuanchor="about"><a href="#about">About</a></li>
-			<li class="navbar" data-menuanchor="work"><a href="#work">Work</a></li>
-			<!-- <li class="navbar"><a href="/blog.html">Blog</a></li> -->
-			
-		</ul> 
-	</div>
+			<li class="navbar"><a href="#about">About</a></li>
+			<li class="navbar"><a href="#work">Work</a></li>
+			<li class="navbar"><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
 
 	<!-- Spiral Background -->
 	<canvas id="myCanvas" resize></canvas>
@@ -52,39 +50,26 @@
 	<div id="fullpage">
 
 		<!-- Homepage / Intro -->
-		<div class="section active" id="section0" data-anchor="home">
-			<br><br><br><br>
-			<div class="magenta-double home">
-			<div class="magenta-bubble home">
-			<div class="content home">
-				<div class="article">
-					<h1 class="home">Hi :></h1>
-					<p>I'm Julia, and this is my website.<br>
-					</p>
-					<div class="inline">
-						<a href="https://github.com/juliatufts">
-	  						<img class="icon" src="/images/GitHub.png" alt="GitHub">
-						</a>
-					</div>
-					<div class="inline">
-						<a href="https://twitter.com/julialynntufts">
-							<img class="icon" src="/images/Twitter.png" alt="Twitter">
-						</a>
-					</div >
-					<div class="inline">
-						<a href="mailto:juliatufts@gmail.com">
-							<img class="icon" src="/images/Email.png" alt="Email">
-						</a>
+		<div id="home">
+			<div class="section active" id="section0">
+				<br><br><br><br>
+				<div class="magenta-double home">
+				<div class="magenta-bubble home">
+				<div class="content home">
+					<div class="article">
+						<h1 class="home">Hi :></h1>
+						<p>I'm Julia, and this is my website.<br>
+						</p>
 					</div>
 				</div>
+				</div>
+				</div>
+				<h1 class="home" style="margin: 0 auto;">&#8942;</h1>
 			</div>
-			</div>
-			</div>
-			<h1 class="home" style="margin: 0 auto;">&#8942;</h1>
 		</div>
 
 		<!-- About -->
-		<div class="section" id="section2" data-anchor="about">
+		<div class="section" id="about">
 			<br>
 			<div class="magenta-double">
 			<div class="magenta-bubble">
@@ -114,7 +99,7 @@
 		</div>
 
 		<!-- Work -->
-		<div class="section" id="section1" data-anchor="work">
+		<div class="section" id="work">
 			<div class="main">
 			    			    
 			    <div class="grid-section group">
@@ -182,38 +167,27 @@
 						</a>
 					</div>
 				</div>
-
 			</div>
 		</div>
 
-		<!-- Blog -->
-<!-- 		<div class="section" id="section3">
-			<div class="magenta-double">
-			<div class="magenta-bubble">
-			<div class="content">
-				<div class="article">
-					
-							<a href = "/blog/2016/09/24/meta-blog.html"><h2 class="blog">Meta Blog</h2></a>
-							<p>Sep 24, 2016</p>
-							<p>I decided to redo my website recently. It was nice to revisit a development process with a bunch of new knowledge and insight, and see how differently I approached it. It also gave me the chance to take a long hard look at the under-used moleskine journal that is my blog. That got me thinking about what sort of posts worked well, or didn’t, and why. So I decided to reflect a bit on that and try to get a better footing blogging forward.</p>
-
-
-							<p class="center"><a href="/blog/2016/09/24/meta-blog.html"> ...continue reading... </a></p>
-					
-				</div>
-			</div>
-			</div>
-			</div>
-
-			<br><br><br>
-			<div class="content">
-				<a href="/blog.html">
-				<div class="article button">
-					<h2> &#9734 Blog Archive &#9734 </h2>
-				</div>
+		<footer id="contact">
+			<div class="inline">
+				<a href="https://github.com/juliatufts">
+						<img class="icon" src="/images/GitHub.png" alt="GitHub">
 				</a>
 			</div>
-		</div> -->
+			<div class="inline">
+				<a href="https://twitter.com/julialynntufts">
+					<img class="icon" src="/images/Twitter.png" alt="Twitter">
+				</a>
+			</div >
+			<div class="inline">
+				<a href="mailto:juliatufts@gmail.com">
+					<img class="icon" src="/images/Email.png" alt="Email">
+				</a>
+			</div>
+		</footer>
+
 	</div>
 </body>
 </html>
