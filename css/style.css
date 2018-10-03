@@ -24,7 +24,7 @@ body {
 }
 
 /************************************************/
-/********************* Main *********************/
+/*                     Main                     */
 /************************************************/
 
 a {
@@ -160,15 +160,16 @@ li span {
 }
 
 p a {
-    color: rgb(0,230,230)
+    color: rgb(212,0,212); /* magenta */
 }
 
 p a:hover {
-    color: rgb(0,255,255)
+    color: rgb(255,0,255); /* magenta */
+    text-decoration: underline;
 }
 
 li a span {
-    color: 'cyan';
+    color: rgb(212,0,212); /* magenta */
 }
 
 .center {
@@ -187,7 +188,7 @@ a.center:hover {
 }
 
 /************************************************/
-/**************** Home page *********************/
+/*                Home page                     */
 /************************************************/
 
 .home {
@@ -227,18 +228,8 @@ h2.home {
     padding-left: 10px;
 }
 
-img.icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
-}
-
-.icon:hover {
-    background-color: rgb(255, 0, 255);
-}
-
 /************************************************/
-/********************* Work *********************/
+/*                     Work                     */
 /************************************************/
 
 h1.center {
@@ -295,15 +286,11 @@ h2.work:hover {
 #eyeball { background-image: url("/images/eyeball_color.png"); }
 #octo { background-image: url("/images/octosnatch_color.png"); }
 #birthday { background-image: url("/images/blowfish_color.png"); }
-#elder { background-image: url("/images/elder_color.png"); }
-#heritage { background-image: url("/images/heritage_color.png"); }
-#ghost { background-image: url("/images/ghost_color.png"); }
 #stepsequencer { background-image: url("/images/stepsequencer_color.png"); }
 #piano { background-image: url("/images/piano_color.png"); }
-#vixens { background-image: url("/images/vixens_color.png"); }
 
 /************************************************/
-/******************** Blog **********************/
+/*                    Blog                      */
 /************************************************/
 
 h1.blog {
@@ -341,7 +328,7 @@ a.blog:hover {
 }
 
 /************************************************/
-/****************** Nav bar *********************/
+/*                  Nav bar                     */
 /************************************************/
 
 #navbar {
@@ -405,7 +392,52 @@ ul.navbar li.active {
 }
 
 /************************************************/
-/***************** Div Grid *********************/
+/*                  Footer                      */
+/************************************************/
+
+footer {
+    width: 100%;
+    background-color: rgba(250,250,250,0.8);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+
+    color: rgb(255, 0, 255);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+footer p {
+    margin: auto;
+    width: 180px;
+    text-align: left;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: rgb(50,50,50);
+}
+
+svg {
+    width: 18px;
+    height: 18px;
+    fill: black;
+}
+
+
+/************************************************/
+/*                 Div Grid                     */
 /************************************************/
 
 /*sections*/
