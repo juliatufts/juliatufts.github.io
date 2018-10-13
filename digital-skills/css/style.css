@@ -2,7 +2,7 @@
 #FE4365 - Bright pink
 #FC9D9A - Soft pink
 #FFF4ED - Champagne
-#83AF9B - Muted teal
+#15948A - Muted teal
 #222222 - Dark grey
 */
 
@@ -77,7 +77,7 @@ nav li {
 }
 
 nav a:hover {
-  color: #83AF9B; /* Teal */
+  color: #15948A; /* Teal */
 }
 
 nav a {
@@ -116,7 +116,7 @@ nav a {
   }
 
   nav a:hover {
-    color: #83AF9B; /* Teal */
+    color: #15948A; /* Teal */
   }
 
   .selected {
@@ -132,18 +132,18 @@ nav a {
 header {
   background-color: #222222; /* Dark grey */
   color: white;
-  height: 400px;
+  height: 300px;
   display: block;
   margin: 0 auto;
   text-align: center;
   margin-top: 48px;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 @media (max-width: 768px) {
   header {
     margin-top: 0px;
-    padding-top: 40px;
+    padding-top: 20px;
   }
 }
 
@@ -170,13 +170,73 @@ header {
 }
 
 .class-overview h3 span {
-  color: #FE4365; /* Soft pink */
+  color: #FE4365; /* Bright pink */
 }
 
 .class-overview sup {
   font-size: 0.5em;
 }
 
-.class-overview a {
+a {
   color: #FE4365;
+}
+
+/* Modules ====================================== */
+#module-nav a {
+  color: black;
+}
+
+#module-nav a:hover {
+  color: #FE4365; /* Bright pink */
+}
+
+.module a h2 {
+  color: black;
+  margin-bottom: 0;
+}
+
+.module a h2:hover {
+  color: #FE4365; /* Bright pink */
+}
+
+.module h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.module ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.module ul li {
+  margin-top: 0.75rem;
+}
+
+.module-link p {
+  margin: 0;
+}
+
+.module-link ul {
+  margin-top: 0;
+  list-style-type: disc;
+  padding-inline-start: 40px;
+}
+
+.module-link ul li {
+  margin-top: 0;
+}
+
+.module-link a {
+  color: black;
+  text-decoration: none;
+  line-height: 1.25rem;
+}
+
+.module-link:hover {
+  background-color: #FE4365; /* Bright pink */
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
