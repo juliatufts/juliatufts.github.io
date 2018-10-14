@@ -50,19 +50,6 @@ h2 {
   font-family: 'Roboto Mono', monospace;
 }
 
-.html-element::before {
-  content: "<" ;
-}
-
-.html-element-close::before {
-  content: "</" ;
-}
-
-.html-element::after,
-.html-element-close::after {
-  content: ">" ;
-}
-
 .comment {
   color: #999; /* Light grey */
 }
