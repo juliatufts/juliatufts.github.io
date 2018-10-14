@@ -16,7 +16,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
   background: #FFF4ED; /* Champagne */
 }
 
@@ -44,12 +45,26 @@ h2 {
   margin-top: 0;
 }
 
+.html-element {
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
 .html-element::before {
   content: "<" ;
 }
 
-.html-element::after {
+.html-element-close::before {
+  content: "</" ;
+}
+
+.html-element::after,
+.html-element-close::after {
   content: ">" ;
+}
+
+.comment {
+  color: #999; /* Light grey */
 }
 
 /* Navigation ====================================== */
@@ -239,4 +254,57 @@ a {
   margin-right: -5px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+/* Cheat Sheets ====================================== */
+#html-cheatsheet h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  border-bottom: 2px solid #FE4365;
+}
+
+#html-cheatsheet table {
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#html-cheatsheet td,
+#html-cheatsheet th {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  overflow: scroll;
+}
+
+#html-cheatsheet th {
+  text-align: left;
+}
+
+#html-cheatsheet .el {
+  width: 15%;
+}
+
+#html-cheatsheet td.el {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  width: 15%;
+}
+
+#html-cheatsheet .ab {
+  width: 35%;
+}
+
+#html-cheatsheet .ex,
+#html-cheatsheet .code-ex {
+  width: 50%;
+}
+
+#html-cheatsheet .code-ex {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.85rem;
+  margin: 0.25rem;
+  border: 2px dotted black;
 }

@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Digital Skills</title>
-    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Mono:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Mono|Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="/digital-skills/css/style.css">
-
   </head>
   <body>
     <a href="" id="menu-icon">☰</a>
@@ -22,14 +21,182 @@
       <h1>Cheat Sheets</h1>
     </header>
 
-    <section class="container">
+    <section id="html-cheatsheet" class="container">
       <h2>HTML</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3>Layout</h3>
+      <table>
+        <tr>
+          <th class="el">Element</th>
+          <th class="ab">About</th>
+          <th class="ex">Example</th>
+        </tr>
+        <tr>
+          <td class="el">&lt;!DOCTYPE html&gt;</td>
+          <td class="ab">Not an HTML element, but must be the first thing in your HTML document.</td>
+          <td class="code-ex">&lt;!DOCTYPE html&gt;<br>
+                            <span class="comment">&lt;!-- All the HTML --&gt;</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="el">&lt;html&gt;</td>
+          <td class="ab">The first HTML element</td>
+          <td class="code-ex">&lt;html lang=&quot;en&quot;&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- The rest of the HTML --&gt;<br></span>
+                              &lt;&#47;html&gt;</td>
+        </tr>
+        <tr>
+          <td class="el">&lt;head&gt;</td>
+          <td class="ab">Where your metadata goes, like title and links to stylesheets</td>
+          <td class="code-ex">&lt;head&gt;<br>
+                              &nbsp;&lt;meta charset=&quot;utf-8&quot;&gt;<br>
+                              &nbsp;&lt;title&gt;Your Title&lt;&#47;title&gt;<br>
+                              &nbsp;&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;<br>
+                              &lt;&#47;head&gt;</td>
+        </tr>
+
+        <tr>
+          <td class="el">&lt;body&gt;</td>
+          <td class="ab">Where the content of your page goes</td>
+          <td class="code-ex">&lt;body&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- All page content goes here --&gt;</span><br>
+                              &lt;&#47;body&gt;</td>
+        </tr>
+        <tr>
+          <td class="el">&lt;header&gt;</td>
+          <td class="ab">The top section of a page</td>
+          <td class="code-ex">&lt;header&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- Header content --&gt;</span><br>
+                              &lt;&#47;header&gt;</td>
+        </tr>
+        <tr>
+          <td class="el">&lt;footer&gt;</td>
+          <td class="ab">The bottom section of a page</td>
+          <td class="code-ex">&lt;footer&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- Footer content --&gt;</span><br>
+                              &lt;&#47;footer&gt;</td>
+        </tr>
+
+        <tr>
+          <td class="el">&lt;nav&gt;</td>
+          <td class="ab">The navigation/menu to go from page to page or section to section</td>
+          <td class="code-ex">&lt;nav&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- Navigation links --&gt;</span><br>
+                              &lt;&#47;nav&gt;</td>
+        </tr>
+
+        <tr>
+          <td class="el">&lt;section&gt;</td>
+          <td class="ab">Any section within a page. Should be the sibling of header and footer</td>
+          <td class="code-ex">&lt;section&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- Section content --&gt;</span><br>
+                              &lt;&#47;section&gt;</td>
+        </tr>
+        <tr>
+          <td class="el">&lt;div&gt;</td>
+          <td class="ab">Generic grouping element</td>
+          <td class="code-ex">&lt;div&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- Div content --&gt;</span><br>
+                              &lt;&#47;div&gt;</td>
+        </tr>
+      </table>
+
+      <h3>Text</h3>
+      <table id="html-cheatsheet">
+        <tr>
+          <th class="el">Element</th>
+          <th class="ab">About</th>
+          <th class="ex">Example</th>
+        </tr>
+        <tr>
+          <td class="el">&lt;p&gt;</td>
+          <td class="ab">A paragraph</td>
+          <td class="code-ex">&lt;p&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- A big long paragraph --&gt;</span><br>
+                              &lt;&#47;p&gt;</td>
+        </tr>
+        <tr>
+          <td class="el">&lt;a&gt;</td>
+          <td class="ab">A link. Include href attribute.</td>
+          <td class="code-ex">
+            &lt;a href=&quot;https://www.google.ca&quot;&gt;Link to Google&lt;&#47;a&gt;<br>
+            &lt;a href=&quot;#id-name&quot;&gt;Link to spot on page&lt;&#47;a&gt;
+          </td>
+        </tr>
+        <tr>
+          <td class="el">&lt;ul&gt;</td>
+          <td class="ab">An unordered list (bullet points)</td>
+          <td class="code-ex">&lt;ul&gt;<br>
+                              &nbsp;&lt;li&gt;An item&lt;&#47;li&gt;<br>
+                              &nbsp;&lt;li&gt;Another item&lt;&#47;li&gt;<br>
+                              &lt;&#47;ul&gt;</td>
+        </tr>
+        <tr>
+          <td class="el">&lt;ol&gt;</td>
+          <td class="ab">An ordered list (numbered)</td>
+          <td class="code-ex">&lt;ol&gt;<br>
+                              &nbsp;&lt;li&gt;First item&lt;&#47;li&gt;<br>
+                              &nbsp;&lt;li&gt;Second item&lt;&#47;li&gt;<br>
+                              &lt;&#47;ol&gt;</td>
+        </tr>
+        <tr>
+          <td class="el">&lt;li&gt;</td>
+          <td class="ab">A list item. Use as children of ul or ol</td>
+          <td class="code-ex">&lt;li&gt;List item&lt;&#47;li&gt;</td>
+        </tr>
+      </table>
+
+      <h3>Media</h3>
+      <table id="html-cheatsheet">
+        <tr>
+          <th class="el">Element</th>
+          <th class="ab">About</th>
+          <th class="ex">Example</th>
+        </tr>
+        <tr>
+          <td class="el">&lt;img&gt;</td>
+          <td class="ab">An image. Include src and alt attribute</td>
+          <td class="code-ex">&lt;img src=&quot;image.jpg&quot; alt=&quot;description of image&quot;&gt;</td>
+        </tr>
+      </table>
+
+      <h3>Spacing</h3>
+      <table id="html-cheatsheet">
+        <tr>
+          <th class="el">Element</th>
+          <th class="ab">About</th>
+          <th class="ex">Example</th>
+        </tr>
+        <tr>
+          <td class="el">&lt;br&gt;</td>
+          <td class="ab">A line break (like enter/return key)</td>
+          <td class="code-ex">&lt;p&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- First half of paragraph with a break in the middle --&gt;</span><br>
+                              &nbsp;&lt;br&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- Second half of paragraph with a break in the middle --&gt;</span><br>
+                              &lt;&#47;p&gt;
+          </td>
+        </tr>
+        <tr>
+          <td class="el">&lt;hr&gt;</td>
+          <td class="ab">A horizontal line</td>
+          <td class="code-ex">&lt;p&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- A
+                              paragraph --&gt;</span><br>
+                              &lt;&#47;p&gt;<br>
+                              &lt;hr&gt;<br>
+                              &lt;p&gt;<br>
+                              <span class="comment">&nbsp;&lt;!-- Another paragraph that has nothing to do with the first paragraph --&gt;</span><br>
+                              &lt;&#47;p&gt;<br>
+
+          </td>
+        </tr>
+      </table>
     </section>
 
     <section class="container">
       <h2>CSS</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>See W3Schools resources: <a href="https://www.w3schools.com/cssref/default.asp">List of all CSS properties</a> and <a href="https://www.w3schools.com/css/css_examples.asp">CSS Examples</a>
+      </p>
     </section>
 
     <!-- TODO: Figure out why this has to go here -->
