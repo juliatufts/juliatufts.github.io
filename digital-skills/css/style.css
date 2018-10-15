@@ -167,6 +167,14 @@ header {
   margin-bottom: 0;
 }
 
+.notes p {
+  margin-bottom: 1em;
+}
+
+p.no-bottom-margin {
+  margin-bottom: 0;
+}
+
 .class-overview ul {
   margin-top: 0;
 }
