@@ -1,7 +1,7 @@
 # juliatufts.github.io
 
 This is my personal website :)
-You can reach it via [juliatufts.github.io](https://juliatufts.github.io) or [juliatufts.com](http://www.juliatufts.com)
+You can reach it via [juliatufts.github.io](https://juliatufts.github.io) or [juliatufts.com](http://juliatufts.com)
 
 ## Jekyll
 
