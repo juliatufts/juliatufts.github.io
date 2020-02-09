@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <button id="button" type="button">CLICK ME</button>
+
+    <svg id="arrowSvg" height="15" viewBox="0 0 320 50" xmlns="http://www.w3.org/2000/svg">
+      <polygon id="arrowPoly"
+        points="35,25
+          30,20 0,5 20,5 50,20
+          65,20 35,5 55,5 85,20
+          255,20 250,5 300,25 250,45 255,30
+          85,30 55,45 35,45 65,30
+          50,30 20,45 0,45 30,30" fill="transparent"/>
+    </svg>
+
+    <svg id="bowSvg" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg">
+      <path id="bowPath"
+               d="M 50 10
+               Q 40 20 70 40
+               T 100 100
+               T 70 160
+               Q 40 180 50 190"
+               stroke="transparent" stroke-width="4" fill="transparent"/>
+     <path id="bowStringPath"
+       d="M 50 20 L 50 100 L 50 180" stroke="transparent" fill="transparent" stroke-width="2"/>
+    </svg>
+
+    <script src="main.js"></script>
+  </body>
+</html>
