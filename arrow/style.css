@@ -6,6 +6,11 @@ html, body {
   user-select: none;
 }
 
+body {
+  overflow: hidden;
+  position: fixed;
+}
+
 button {
   position: relative;
   top: 50px;

@@ -382,9 +382,6 @@ function touchHandler(event)
                                   false, false, false, 0/*left*/, null);
 
     first.target.dispatchEvent(simulatedEvent);
-    if (event.type === "touchmove") {
-      event.preventDefault();
-    }
 }
 
 function init() {
@@ -398,6 +395,12 @@ function init() {
   arrow.update();
   arrow.render();
   document.getElementById('arrowPoly').setAttributeNS(null, 'fill', 'black');
+
+  // prevent scrolling on mobile
+  document.body.addEventListener("touchmove", function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+  }, false);
 
   document.addEventListener("touchstart", touchHandler, true);
   document.addEventListener("touchmove", touchHandler, true);
