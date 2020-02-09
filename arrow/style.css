@@ -1,5 +1,9 @@
-html {
+html, body {
   cursor: pointer;
+  margin: 0;
+  height: 100%;
+  touch-action: none;
+  user-select: none;
 }
 
 button {
