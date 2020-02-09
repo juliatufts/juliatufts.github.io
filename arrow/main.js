@@ -150,24 +150,25 @@ const ArrowState = {
 };
 
 class Arrow {
-  pos = new Vector(0,0); // center
-  dir = new Vector(0,0);
-  acc = new Vector(0,0);
-  vel = new Vector(0,0);
-  mass = 1;
-
-  drawPosition = 0; // [0,1]
-  minDrawDistance = 50;
-  maxDrawDistance = 100;
-  drawPower = 16;
-  state = ArrowState.Ready;
-
   constructor(initialPos, mouse, svgRef){
     this.initialPos = initialPos;
     this.mouse = mouse;
     this.svgRef = svgRef;
     this.height = svgRef.clientHeight;
     this.width = svgRef.clientWidth;
+
+    this.pos = new Vector(0,0); // center?
+    this.dir = new Vector(0,0);
+    this.acc = new Vector(0,0);
+    this.vel = new Vector(0,0);
+    this.mass = 1;
+
+    this.drawPosition = 0; // [0,1]
+    this.minDrawDistance = 50;
+    this.maxDrawDistance = 100;
+    this.drawPower = 16;
+    this.state = ArrowState.Ready;
+
     this.reset();
   }
 
@@ -292,19 +293,18 @@ class Arrow {
 
 //----------------------------------------------- bow
 class Bow {
-  pos = new Vector(0,0);
-  dir = new Vector(0,0);
-  minDist = 20;
-  maxDist = 90;
-
   constructor(arrow, mouseRef, svgRef) {
     this.arrow = arrow;
     this.mouseRef = mouseRef;
     this.svgRef = svgRef;
     this.height = this.svgRef.clientHeight;
     this.width = this.svgRef.clientWidth;
+
     this.pos = arrow.pos.copy();
     this.arrowPoint = this.arrow.getPoint().copy();
+    this.dir = new Vector(0,0);
+    this.minDist = 20;
+    this.maxDist = 90;
 
     // make right edge of bow rect line up with arrow rect
     // so that they rotate around the same point
