@@ -1,0 +1,29 @@
+html {
+  cursor: pointer;
+}
+
+button {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: peachpuff;
+}
+
+#arrowSvg,
+#bowSvg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 100% 50%;
+}
+
+#bowSvg {
+  width: 80px;
+}
