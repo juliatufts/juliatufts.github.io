@@ -372,12 +372,12 @@ function collision(pos, rect) {
   return !clear;
 }
 
-function touchHandler(event)
+function touchHandler(e)
 {
-    var touches = event.changedTouches,
+    var touches = e.changedTouches,
         first = touches[0],
         type = "";
-    switch(event.type)
+    switch(e.type)
     {
         case "touchstart": type = "mousedown"; break;
         case "touchmove":  type = "mousemove"; break;
@@ -406,9 +406,9 @@ function init() {
   document.getElementById('arrowPoly').setAttributeNS(null, 'fill', 'black');
 
   // prevent scrolling on mobile
-  document.body.addEventListener("touchmove", function(event) {
-      event.preventDefault();
-      event.stopPropagation();
+  document.body.addEventListener("touchmove", function(e) {
+      e.preventDefault();
+      e.stopPropagation();
   }, false);
 
   document.addEventListener("touchstart", touchHandler, true);
@@ -434,9 +434,11 @@ function init() {
     mouse.onUp(e);
   });
 
+  button.disabled = true;
   button.addEventListener("click", function (e) {
     alert("CONGRATULATION");
     arrow.reset();
+    button.disabled = true;
   });
 }
 
@@ -462,6 +464,7 @@ function update() {
   // check for collision
   if (arrow.state != ArrowState.Hit && collision(arrow.getPoint(), buttonBox)) {
     hit = true;
+    button.disabled = false;
   }
 }
 
