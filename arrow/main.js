@@ -133,6 +133,7 @@ class Mouse extends Vector {
     this.setTo(e);
   }
   onDown(e) {
+    this.setTo(e);
     document.documentElement.style.cursor = 'grabbing';
   }
   onUp(e) {
@@ -159,6 +160,7 @@ class Arrow {
 
     this.pos = new Vector(0,0); // center?
     this.dir = new Vector(0,0);
+    this.theta = 0;
     this.acc = new Vector(0,0);
     this.vel = new Vector(0,0);
     this.mass = 1;
@@ -173,10 +175,10 @@ class Arrow {
   }
 
   getPoint() {
-    return new Vector(
-      this.pos.x + this.width,
-      this.pos.y + this.height/2,
-    );
+    return {
+      x: this.pos.x + this.width + 38 * Math.cos(this.theta),
+      y: this.pos.y + this.height/2 + 38 * Math.sin(this.theta),
+    };
   }
 
   reset() {
@@ -190,10 +192,9 @@ class Arrow {
   }
 
   directAwayFromMouse() {
-    const arrowPoint = this.getPoint();
     let newDir = new Vector(
-      (arrowPoint.x - this.mouse.x),
-      (arrowPoint.y - this.mouse.y),
+      (this.pos.x + this.width - this.mouse.x),
+      (this.pos.y + this.height/2 - this.mouse.y),
     );
     newDir.normalize();
     this.dir.setTo(newDir);
@@ -213,7 +214,11 @@ class Arrow {
         this.directAwayFromMouse();
 
         // calculate distance from mouse to arrow point
-        let dist = this.mouse.dist(this.getPoint());
+        const point = new Vector(
+          this.pos.x + this.width - 6,
+          this.pos.y + this.height/2,
+        );
+        let dist = this.mouse.dist(point);
         dist = Math.max(dist, this.minDrawDistance);
         dist = Math.min(dist, this.maxDrawDistance);
 
@@ -269,8 +274,8 @@ class Arrow {
   }
 
   render() {
-    const theta = Math.atan2(this.dir.y, this.dir.x);
-    const thetaInDegrees = theta * 180 / Math.PI;
+    this.theta = Math.atan2(this.dir.y, this.dir.x);
+    const thetaInDegrees = this.theta * 180 / Math.PI;
     const x = this.pos.x;
     const y = this.pos.y;
     const offsetX = 40 + this.drawPosition * (-30); // in [40, 10]
@@ -301,7 +306,10 @@ class Bow {
     this.width = this.svgRef.clientWidth;
 
     this.pos = arrow.pos.copy();
-    this.arrowPoint = this.arrow.getPoint().copy();
+    this.arrowPoint = new Vector(
+      arrow.pos.x + arrow.width,
+      arrow.pos.y + arrow.height/2,
+    );
     this.dir = new Vector(0,0);
     this.minDist = 20;
     this.maxDist = 90;
@@ -350,6 +358,7 @@ let time = 0;
 let deltaTime = 0;
 let initialPos = new Vector(100, 200);
 let arrowSvg = document.getElementById('arrowSvg');
+let hit = false;
 
 const mouse = new Mouse();
 const arrow = new Arrow(initialPos, mouse, arrowSvg);
@@ -427,6 +436,7 @@ function init() {
 
   button.addEventListener("click", function (e) {
     alert("CONGRATULATION");
+    arrow.reset();
   });
 }
 
@@ -435,18 +445,23 @@ function update() {
   time = performance.now() / 1000;
   deltaTime = time - lastTime;
 
-  // bow
-  bow.update();
-  bow.render();
+  if (hit) {
+    arrow.state = ArrowState.Hit;
+    hit = false;
+    button.click();
+  }
 
   // arrow
   arrow.update();
   arrow.render();
 
+  // bow
+  bow.update();
+  bow.render();
+
   // check for collision
   if (arrow.state != ArrowState.Hit && collision(arrow.getPoint(), buttonBox)) {
-    button.click();
-    arrow.state = ArrowState.Hit;
+    hit = true;
   }
 }
 
