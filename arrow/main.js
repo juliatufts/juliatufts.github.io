@@ -351,14 +351,22 @@ class Bow {
 
 
 /* --------- Main ---------- */
-const button = document.getElementById('button');
-const buttonBox = button.getBoundingClientRect();
+const navbar = document.getElementById('navbar');
+const links = navbar.children;
+const linkColliderMap = new Map();
+for (var i = 0; i < links.length; i++) {
+  linkColliderMap.set(links[i].getBoundingClientRect(), links[i]);
+}
+
+const arrowSvg = document.getElementById('arrowSvg');
+const bowAndArrow = document.getElementById('bowAndArrow');
+const initialX = (bowAndArrow.getBoundingClientRect().width / 2) - arrowSvg.getBoundingClientRect().width;
+const initialY = bowAndArrow.getBoundingClientRect().y;
 
 let time = 0;
 let deltaTime = 0;
-let initialPos = new Vector(100, 200);
-let arrowSvg = document.getElementById('arrowSvg');
-let hit = false;
+let initialPos = new Vector(initialX, initialY);
+let hit = null;
 
 const mouse = new Mouse();
 const arrow = new Arrow(initialPos, mouse, arrowSvg);
@@ -434,12 +442,14 @@ function init() {
     mouse.onUp(e);
   });
 
-  button.disabled = true;
-  button.addEventListener("click", function (e) {
-    alert("CONGRATULATION");
-    arrow.reset();
-    button.disabled = true;
-  });
+  for (let link of linkColliderMap.values()) {
+    link.disabled = true;
+    link.addEventListener("click", function (e) {
+      alert("CONGRATULATION");
+      arrow.reset();
+      link.disabled = true;
+    });
+  }
 }
 
 function update() {
@@ -447,10 +457,10 @@ function update() {
   time = performance.now() / 1000;
   deltaTime = time - lastTime;
 
-  if (hit) {
+  if (!!hit) {
     arrow.state = ArrowState.Hit;
-    hit = false;
-    button.click();
+    hit.click();
+    hit = null;
   }
 
   // arrow
@@ -462,9 +472,13 @@ function update() {
   bow.render();
 
   // check for collision
-  if (arrow.state != ArrowState.Hit && collision(arrow.getPoint(), buttonBox)) {
-    hit = true;
-    button.disabled = false;
+  if (arrow.state != ArrowState.Hit) {
+    for (let [rect, link] of linkColliderMap) {
+      if (collision(arrow.getPoint(), rect)) {
+        hit = link;
+        link.disabled = false;
+      }
+    }
   }
 }
 

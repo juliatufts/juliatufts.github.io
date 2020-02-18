@@ -9,20 +9,27 @@ html, body {
 body {
   overflow: hidden;
   position: fixed;
+  width: 100%;
 }
 
-button {
-  position: relative;
-  top: 50px;
-  left: 100px;
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-button {
-  cursor: pointer;
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+  color: black;
+  border: 2px magenta dashed;
 }
 
-button:active {
-  background-color: peachpuff;
+#bowAndArrow {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 #arrowSvg,
