@@ -4,16 +4,6 @@ form,fieldset,input,textarea,p,blockquote,th,td {
     margin: 0;
 }
 
-/* Scale canvas with resize attribute to full size */
-canvas[resize] {
-    position: absolute;
-    background: #F1F1F1;	/* light grey */
-    min-width: 500px;
-    min-height: 500px;
-    width: 100%;
-    height: 100%;
-}
-
 .section {
     text-align: center;
 }
